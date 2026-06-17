@@ -1,5 +1,9 @@
 # Awesome AI Interview
 
+<p align="right">
+  <b>English</b> | <a href="README.zh-CN.md">中文</a>
+</p>
+
 A practical, interview-oriented handbook for LLM, RAG, AI Agent, and AI research engineer roles.
 
 This repository curates high-frequency interview questions, system design notes, research roadmaps, reusable AI skills, and resume-ready project templates. The goal is to help candidates build a coherent knowledge system instead of memorizing scattered notes.
@@ -20,6 +24,8 @@ This repository curates high-frequency interview questions, system design notes,
 - [Repository Roadmap](ROADMAP.md)
 
 ## What You Will Find
+
+All interview notes, roadmaps, skills, projects, and templates are maintained in both English and Chinese. Chinese versions are available under [`zh-CN/`](zh-CN/).
 
 ### Interview Preparation
 

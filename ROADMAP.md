@@ -37,7 +37,8 @@ This roadmap tracks the content plan for the repository.
 
 ## v0.5 Community Growth
 
-- [ ] Chinese README.
+- [x] Chinese README.
+- [x] Bilingual content structure.
 - [ ] Issue templates.
 - [ ] Pull request template.
 - [ ] Weekly AI interview digest.
