@@ -14,7 +14,7 @@ This roadmap tracks the content plan for the repository.
 
 ## v0.2 Interview Expansion
 
-- [ ] 100 LLM interview questions.
+- [x] 100 LLM interview questions.
 - [ ] 50 RAG interview questions.
 - [ ] 50 AI agent interview questions.
 - [ ] System design answer templates.
@@ -42,4 +42,3 @@ This roadmap tracks the content plan for the repository.
 - [ ] Pull request template.
 - [ ] Weekly AI interview digest.
 - [ ] Star history badge.
-

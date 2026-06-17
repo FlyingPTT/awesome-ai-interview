@@ -9,6 +9,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [LLM Engineer Roadmap](roadmap/llm-engineer.md)
 - [AI Agent Engineer Roadmap](roadmap/ai-agent-engineer.md)
 - [RAG Engineer Roadmap](roadmap/rag-engineer.md)
+- [100 LLM Interview Questions](interviews/100-llm-interview-questions.md)
 - [High-Frequency LLM Interview Questions](interviews/llm-basic.md)
 - [AI Agent Interview Notes](interviews/agent.md)
 - [RAG System Design Notes](interviews/rag.md)
@@ -22,6 +23,7 @@ This repository curates high-frequency interview questions, system design notes,
 
 ### Interview Preparation
 
+- 100 LLM interview questions for fast review and mock interviews.
 - LLM fundamentals: Transformer, attention, pretraining, alignment, inference.
 - RAG engineering: chunking, embedding, retrieval, reranking, evaluation, observability.
 - AI agents: tool use, planning, memory, workflow orchestration, guardrails, evaluation.
