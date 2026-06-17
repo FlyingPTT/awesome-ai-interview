@@ -6,6 +6,8 @@ These projects are designed to be realistic enough for interviews and small enou
 
 - [Production RAG System](rag-system.md)
 - [Coding Agent](coding-agent.md)
+- [LLM Evaluation Harness](llm-eval-harness.md)
+- [Minimal Agent Framework](minimal-agent-framework.md)
 - [Paper Reading Assistant](paper-assistant.md)
 - [AI Interview Simulator](ai-interview-bot.md)
 
@@ -19,4 +21,3 @@ Use this structure:
 4. Evaluation: how did you know it worked?
 5. Failure cases: what broke and how did you fix it?
 6. Impact: what improved?
-

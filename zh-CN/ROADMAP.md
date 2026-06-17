@@ -15,13 +15,15 @@
 ## v0.2 面试题扩展
 
 - [x] 100 道 LLM 面试题。
-- [ ] 50 道 RAG 面试题。
-- [ ] 50 道 AI Agent 面试题。
-- [ ] 系统设计答案模板。
+- [x] 50 道 RAG 面试题。
+- [x] 50 道 AI Agent 面试题。
+- [x] 系统设计答案模板。
 - [ ] 常见错误和反模式。
 
 ## v0.3 项目扩展
 
+- [x] LLM Evaluation Harness 项目。
+- [x] Minimal Agent Framework 项目。
 - [ ] 端到端 RAG 参考实现。
 - [ ] Coding Agent 参考实现。
 - [ ] AI 面试模拟器 demo。
@@ -39,6 +41,8 @@
 
 - [x] 中文 README。
 - [x] 双语内容结构。
+- [x] 高 star 仓库汇总。
+- [x] 7 天学习路线。
 - [ ] Issue 模板。
 - [ ] Pull Request 模板。
 - [ ] 每周 AI 面试 digest。

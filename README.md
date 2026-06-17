@@ -13,14 +13,19 @@ This repository curates high-frequency interview questions, system design notes,
 - [LLM Engineer Roadmap](roadmap/llm-engineer.md)
 - [AI Agent Engineer Roadmap](roadmap/ai-agent-engineer.md)
 - [RAG Engineer Roadmap](roadmap/rag-engineer.md)
+- [7-Day AI Interview Study Plan](roadmap/7-day-study-plan.md)
 - [100 LLM Interview Questions](interviews/100-llm-interview-questions.md)
+- [50 RAG Interview Questions](interviews/50-rag-interview-questions.md)
+- [50 AI Agent Interview Questions](interviews/50-agent-interview-questions.md)
 - [High-Frequency LLM Interview Questions](interviews/llm-basic.md)
 - [AI Agent Interview Notes](interviews/agent.md)
 - [RAG System Design Notes](interviews/rag.md)
 - [LLM System Design Notes](interviews/system-design.md)
 - [LLM Evaluation Notes](interviews/eval.md)
 - [AI Skills Collection](skills/README.md)
+- [Agent Skills Catalog](skills/agent-skills-catalog.md)
 - [Resume-Ready AI Projects](projects/README.md)
+- [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
 - [Repository Roadmap](ROADMAP.md)
 
 ## What You Will Find
@@ -30,6 +35,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 ### Interview Preparation
 
 - 100 LLM interview questions for fast review and mock interviews.
+- 50 RAG interview questions and 50 AI agent interview questions.
 - LLM fundamentals: Transformer, attention, pretraining, alignment, inference.
 - RAG engineering: chunking, embedding, retrieval, reranking, evaluation, observability.
 - AI agents: tool use, planning, memory, workflow orchestration, guardrails, evaluation.
@@ -39,6 +45,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 
 - Research paper reading skills.
 - Coding agent skills.
+- Agent skills catalog.
 - RAG diagnosis skills.
 - Interview answer skills.
 - Literature survey skills.
@@ -59,6 +66,8 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 
 - Production-style RAG system.
 - Coding agent with review and repair loop.
+- LLM evaluation harness.
+- Minimal agent framework.
 - Paper reading assistant.
 - AI interview simulator.
 - Agent skill marketplace prototype.

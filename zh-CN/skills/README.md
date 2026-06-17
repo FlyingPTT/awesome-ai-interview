@@ -6,6 +6,7 @@
 
 - [研究 Skills](research-skills.md)
 - [Coding Agent Skills](coding-agent-skills.md)
+- [Agent Skills Catalog](agent-skills-catalog.md)
 - [面试 Skills](interview-skills.md)
 - [RAG 诊断 Skills](rag-diagnosis-skills.md)
 - [热点方向 Skills](hot-domain-skills.md)
@@ -53,4 +54,3 @@
 
 定义最终交付物。
 ```
-

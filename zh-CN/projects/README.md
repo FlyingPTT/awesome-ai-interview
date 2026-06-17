@@ -6,6 +6,8 @@
 
 - [生产级 RAG 系统](rag-system.md)
 - [Coding Agent](coding-agent.md)
+- [LLM Evaluation Harness](llm-eval-harness.md)
+- [Minimal Agent Framework](minimal-agent-framework.md)
 - [论文阅读助手](paper-assistant.md)
 - [AI 面试模拟器](ai-interview-bot.md)
 
@@ -19,4 +21,3 @@
 4. Evaluation：如何证明它有效？
 5. Failure cases：哪里失败过，如何修复？
 6. Impact：带来了什么改进？
-

@@ -6,6 +6,7 @@ This directory collects reusable AI skills and workflows. A skill is a compact i
 
 - [Research Skills](research-skills.md)
 - [Coding Agent Skills](coding-agent-skills.md)
+- [Agent Skills Catalog](agent-skills-catalog.md)
 - [Interview Skills](interview-skills.md)
 - [RAG Diagnosis Skills](rag-diagnosis-skills.md)
 
@@ -52,4 +53,3 @@ Describe the repeatable task.
 
 Define the final deliverable.
 ```
-

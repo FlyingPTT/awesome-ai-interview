@@ -13,14 +13,19 @@
 - [LLM 工程师路线图](zh-CN/roadmap/llm-engineer.md)
 - [AI Agent 工程师路线图](zh-CN/roadmap/ai-agent-engineer.md)
 - [RAG 工程师路线图](zh-CN/roadmap/rag-engineer.md)
+- [7 天 AI 面试学习路线](zh-CN/roadmap/7-day-study-plan.md)
 - [100 道 LLM 面试题](zh-CN/interviews/100-llm-interview-questions.md)
+- [50 道 RAG 面试题](zh-CN/interviews/50-rag-interview-questions.md)
+- [50 道 AI Agent 面试题](zh-CN/interviews/50-agent-interview-questions.md)
 - [LLM 高频基础题](zh-CN/interviews/llm-basic.md)
 - [AI Agent 面试笔记](zh-CN/interviews/agent.md)
 - [RAG 系统设计笔记](zh-CN/interviews/rag.md)
 - [LLM 系统设计笔记](zh-CN/interviews/system-design.md)
 - [LLM 评估笔记](zh-CN/interviews/eval.md)
 - [AI Skills 合集](zh-CN/skills/README.md)
+- [Agent Skills Catalog](zh-CN/skills/agent-skills-catalog.md)
 - [可写进简历的 AI 项目](zh-CN/projects/README.md)
+- [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
 - [仓库路线图](zh-CN/ROADMAP.md)
 
 ## 你能在这里找到什么
@@ -30,6 +35,7 @@
 ### 面试准备
 
 - 100 道 LLM 面试题，适合快速复习和模拟面试。
+- 50 道 RAG 面试题和 50 道 AI Agent 面试题。
 - LLM 基础：Transformer、Attention、预训练、对齐、推理。
 - RAG 工程：切分、Embedding、检索、重排、评估、可观测性。
 - AI Agent：工具调用、规划、记忆、工作流编排、权限和评估。
@@ -39,6 +45,7 @@
 
 - 论文阅读 skill。
 - Coding agent skill。
+- Agent skills catalog。
 - RAG 诊断 skill。
 - 面试回答 skill。
 - 文献综述 skill。
@@ -59,6 +66,8 @@
 
 - 生产级 RAG 系统。
 - 带 review 和 repair loop 的 Coding Agent。
+- LLM Evaluation Harness。
+- Minimal Agent Framework。
 - 论文阅读助手。
 - AI 面试模拟器。
 - Agent Skill Marketplace 原型。
