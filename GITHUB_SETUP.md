@@ -26,6 +26,17 @@ https://github.com/FlyingPTT/awesome-ai-interview
 
 If you later enable GitHub Pages, use the Pages URL instead.
 
+## GitHub Pages
+
+This repository includes a lightweight static Pages source under `docs/` and a deployment workflow at `.github/workflows/pages.yml`.
+
+To enable it:
+
+1. Open repository settings.
+2. Go to `Pages`.
+3. Set source to `GitHub Actions`.
+4. Run the `Pages` workflow manually or push to `main`.
+
 ## Topics
 
 Recommended topics:
@@ -102,4 +113,3 @@ Chinese:
 ```text
 我整理并维护了 Awesome AI Interview，一个中英文双语 AI 面试知识库，覆盖 LLM、RAG、AI Agent、评估、论文路线图、skills 和可写进简历的项目示例。
 ```
-

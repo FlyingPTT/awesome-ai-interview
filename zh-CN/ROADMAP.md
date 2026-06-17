@@ -49,5 +49,5 @@
 - [x] Pull Request 模板。
 - [x] 可运行 examples CI。
 - [x] GitHub 设置指南。
-- [ ] 每周 AI 面试 digest。
+- [x] 每周 AI 面试 digest。
 - [ ] Star history badge。

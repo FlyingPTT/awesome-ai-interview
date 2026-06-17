@@ -49,5 +49,5 @@ This roadmap tracks the content plan for the repository.
 - [x] Pull request template.
 - [x] Runnable examples CI.
 - [x] GitHub setup guide.
-- [ ] Weekly AI interview digest.
+- [x] Weekly AI interview digest.
 - [ ] Star history badge.

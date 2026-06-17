@@ -9,6 +9,8 @@
 - Multiple evaluators。
 - Pass/fail report。
 - Latency tracking。
+- Exact match、regex、citation、latency 和 cost checks。
+- JSON report export。
 
 ## 运行
 
@@ -16,11 +18,17 @@
 python3 examples/llm-eval-harness/run_eval.py
 ```
 
+写入 JSON report：
+
+```bash
+python3 examples/llm-eval-harness/run_eval.py --report /tmp/llm-eval-report.json
+```
+
 ## 文件
 
 - `test_cases/cases.json`：示例评估用例。
 - `model.py`：deterministic mock model。
-- `evaluators.py`：keyword、JSON schema 和 refusal evaluators。
+- `evaluators.py`：keyword、exact match、regex、JSON schema、citation、refusal、latency 和 cost evaluators。
 - `harness.py`：case runner 和 report builder。
 - `run_eval.py`：可运行 CLI demo。
 
@@ -32,5 +40,10 @@ python3 examples/llm-eval-harness/run_eval.py
 - LLM-as-a-judge 可用于开放式语义检查，但需要校准。
 - Release gates 应结合 quality、safety、latency 和 cost。
 
-代码位于 [`examples/llm-eval-harness`](../../../examples/llm-eval-harness/)。
+## 测试
 
+```bash
+python3 -m unittest discover examples/llm-eval-harness/tests
+```
+
+代码位于 [`examples/llm-eval-harness`](../../../examples/llm-eval-harness/)。

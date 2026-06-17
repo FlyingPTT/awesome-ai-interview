@@ -18,7 +18,8 @@ class EvalHarness:
         start = time.perf_counter()
         output = self.model.generate(case["input"])
         latency_ms = round((time.perf_counter() - start) * 1000, 3)
-        results = [evaluator.evaluate(case, output) for evaluator in self.evaluators]
+        observed_case = {**case, "_observed_latency_ms": latency_ms}
+        results = [evaluator.evaluate(observed_case, output) for evaluator in self.evaluators]
         return {
             "case_id": case["id"],
             "tags": case.get("tags", []),
@@ -58,3 +59,7 @@ def format_failures(report: dict[str, Any]) -> str:
         lines.append(f"- {case['case_id']}: {'; '.join(failed_checks)}")
     return "\n".join(lines) if lines else "No failures."
 
+
+def save_report(report: dict[str, Any], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(report, indent=2), encoding="utf-8")

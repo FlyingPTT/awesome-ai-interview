@@ -10,6 +10,8 @@ class MockModel:
 
     def generate(self, prompt: str) -> str:
         prompt_lower = prompt.lower()
+        if "citation" in prompt_lower:
+            return "RAG combines retrieval and generation so answers can cite evidence. [source:rag-doc]"
         if "json" in prompt_lower:
             return json.dumps({"answer": "RAG combines retrieval and generation.", "confidence": 0.87})
         if "private salary" in prompt_lower:
@@ -17,4 +19,3 @@ class MockModel:
         if "rag" in prompt_lower:
             return "RAG combines retrieval with generation so answers can be grounded in external evidence."
         return "I do not have enough information to answer."
-

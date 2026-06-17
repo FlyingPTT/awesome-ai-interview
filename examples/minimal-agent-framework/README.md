@@ -11,6 +11,10 @@ It demonstrates:
 - Step budget.
 - Trajectory logging.
 
+## Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Run
 
 ```bash
@@ -32,3 +36,8 @@ python3 examples/minimal-agent-framework/run_demo.py
 - Step budgets and verification prevent runaway loops.
 - Dangerous tools should require approval or dry-run mode.
 
+## Test
+
+```bash
+python3 -m unittest discover examples/minimal-agent-framework/tests
+```

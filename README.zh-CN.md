@@ -49,6 +49,8 @@
 - [可运行 Examples](zh-CN/examples/README.md)
 - [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
 - [GitHub 设置指南](zh-CN/GITHUB_SETUP.md)
+- [文档站源码](docs/zh-CN/)
+- [每周 Digest](zh-CN/digest/2026-week-25.md)
 - [仓库路线图](zh-CN/ROADMAP.md)
 
 ## 你能在这里找到什么

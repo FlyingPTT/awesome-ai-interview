@@ -49,6 +49,8 @@ This repository curates high-frequency interview questions, system design notes,
 - [Runnable Examples](examples/)
 - [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
 - [GitHub Setup Guide](GITHUB_SETUP.md)
+- [Docs Site Source](docs/)
+- [Weekly Digest](digest/2026-week-25.md)
 - [Repository Roadmap](ROADMAP.md)
 
 ## What You Will Find

@@ -11,6 +11,10 @@
 - Step budget。
 - Trajectory logging。
 
+## 架构
+
+见 [ARCHITECTURE.md](ARCHITECTURE.md)。
+
 ## 运行
 
 ```bash
@@ -32,5 +36,10 @@ python3 examples/minimal-agent-framework/run_demo.py
 - Step budget 和 verification 可以防止 runaway loops。
 - 危险工具应该需要 approval 或 dry-run mode。
 
-代码位于 [`examples/minimal-agent-framework`](../../../examples/minimal-agent-framework/)。
+## 测试
 
+```bash
+python3 -m unittest discover examples/minimal-agent-framework/tests
+```
+
+代码位于 [`examples/minimal-agent-framework`](../../../examples/minimal-agent-framework/)。
