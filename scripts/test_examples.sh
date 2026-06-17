@@ -25,4 +25,20 @@ echo "Running LLM eval harness tests..."
 python3 -m unittest discover examples/llm-eval-harness/tests
 
 echo
+echo "Running RAG mini system demo..."
+python3 examples/rag-mini-system/run_demo.py
+
+echo
+echo "Running RAG mini system tests..."
+python3 -m unittest discover examples/rag-mini-system/tests
+
+echo
+echo "Running model router demo..."
+python3 examples/model-router/run_demo.py
+
+echo
+echo "Running model router tests..."
+python3 -m unittest discover examples/model-router/tests
+
+echo
 echo "All examples passed."

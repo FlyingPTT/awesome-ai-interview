@@ -24,6 +24,8 @@
 
 - [x] LLM Evaluation Harness 项目。
 - [x] Minimal Agent Framework 项目。
+- [x] RAG mini system example。
+- [x] Model router example。
 - [ ] 端到端 RAG 参考实现。
 - [ ] Coding Agent 参考实现。
 - [ ] AI 面试模拟器 demo。
@@ -50,4 +52,5 @@
 - [x] 可运行 examples CI。
 - [x] GitHub 设置指南。
 - [x] 每周 AI 面试 digest。
+- [x] Social preview 源文件。
 - [ ] Star history badge。
