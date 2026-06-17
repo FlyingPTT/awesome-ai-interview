@@ -25,6 +25,8 @@ class RouteDecision:
     reason: str
     estimated_cost_usd: float
     estimated_latency_ms: int
+    route_path: tuple[str, ...]
+    fallback_used: bool = False
 
 
 SMALL_MODEL = ModelProfile(
@@ -65,11 +67,38 @@ class ModelRouter:
             reason=reason,
             estimated_cost_usd=model.estimate_cost(input_tokens, output_tokens),
             estimated_latency_ms=model.latency_ms,
+            route_path=(model.name,),
+        )
+
+    def route_with_fallback(
+        self,
+        task: str,
+        small_model_confidence: float = 0.8,
+        input_tokens: int = 200,
+        output_tokens: int = 120,
+    ) -> RouteDecision:
+        initial = self.route(task, input_tokens=input_tokens, output_tokens=output_tokens)
+        if initial.model == LARGE_MODEL:
+            return initial
+
+        if small_model_confidence >= 0.7:
+            return initial
+
+        total_cost = SMALL_MODEL.estimate_cost(input_tokens, output_tokens) + LARGE_MODEL.estimate_cost(
+            input_tokens, output_tokens
+        )
+        return RouteDecision(
+            model=LARGE_MODEL,
+            reason="small model confidence below threshold; escalated to stronger model",
+            estimated_cost_usd=round(total_cost, 8),
+            estimated_latency_ms=SMALL_MODEL.latency_ms + LARGE_MODEL.latency_ms,
+            route_path=(SMALL_MODEL.name, LARGE_MODEL.name),
+            fallback_used=True,
         )
 
 
 def answer_with_route(task: str) -> dict[str, object]:
-    decision = ModelRouter().route(task)
+    decision = ModelRouter().route_with_fallback(task)
     return {
         "task": task,
         "model": decision.model.name,
@@ -77,5 +106,6 @@ def answer_with_route(task: str) -> dict[str, object]:
         "estimated_cost_usd": decision.estimated_cost_usd,
         "estimated_latency_ms": decision.estimated_latency_ms,
         "model_quality": decision.model.quality,
+        "route_path": list(decision.route_path),
+        "fallback_used": decision.fallback_used,
     }
-

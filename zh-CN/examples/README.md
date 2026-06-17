@@ -8,6 +8,7 @@
 - [LLM Eval Harness](llm-eval-harness/)：包含 versioned test cases、deterministic model wrapper、evaluators、latency tracking 和 pass/fail report。
 - [RAG Mini System](rag-mini-system/)：本地 Markdown ingestion、BM25 风格 retrieval、带 citation 的答案和 refusal behavior。
 - [Model Router](model-router/)：基于 risk/complexity 在便宜模型和强模型之间路由，并估算 cost 与 latency。
+- [RAG Eval Set](rag-eval-set/)：answerable/unanswerable evaluation cases、citation checks、retrieval checks 和 report export。
 
 ## 为什么这些示例重要？
 
@@ -20,5 +21,6 @@
 - 如何为 prompt 和模型变化构建 release gates？
 - 如何构建带 citations 的 tiny RAG pipeline？
 - 如何按 cost、latency、risk 和 complexity 路由任务？
+- 如何把 RAG demo 变成 regression-tested workflow？
 
 代码位于仓库根目录的 [`examples/`](../../examples/)。

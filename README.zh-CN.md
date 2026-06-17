@@ -25,6 +25,8 @@
 | 学习 LLM 评估 | [LLM Eval Harness](zh-CN/examples/llm-eval-harness/README.md) |
 | 学习 RAG 实现 | [RAG Mini System](zh-CN/examples/rag-mini-system/README.md) |
 | 学习模型路由 | [Model Router](zh-CN/examples/model-router/README.md) |
+| 评估 RAG 质量 | [RAG Eval Set](zh-CN/examples/rag-eval-set/README.md) |
+| 阅读论文摘要 | [论文摘要](zh-CN/paper-summaries/README.md) |
 | 跟踪高质量 AI 仓库 | [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md) |
 | 一周打卡学习 | [7 天 AI 面试打卡清单](zh-CN/roadmap/7-day-checklist.md) |
 | 避开面试常见坑 | [AI 面试常见坑](zh-CN/interviews/common-pitfalls.md) |
@@ -49,6 +51,7 @@
 - [Agent Skills Catalog](zh-CN/skills/agent-skills-catalog.md)
 - [可写进简历的 AI 项目](zh-CN/projects/README.md)
 - [可运行 Examples](zh-CN/examples/README.md)
+- [论文摘要](zh-CN/paper-summaries/README.md)
 - [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
 - [GitHub 设置指南](zh-CN/GITHUB_SETUP.md)
 - [文档站源码](docs/zh-CN/)
@@ -97,6 +100,7 @@
 - Minimal Agent Framework。
 - 可运行的 minimal agent framework 和 evaluation harness examples。
 - RAG mini system 和 model router examples。
+- RAG eval set 和工程视角论文摘要。
 - 论文阅读助手。
 - AI 面试模拟器。
 - Agent Skill Marketplace 原型。

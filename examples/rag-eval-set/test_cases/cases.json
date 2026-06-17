@@ -1,0 +1,22 @@
+[
+  {
+    "id": "answerable_rag_001",
+    "question": "What should good RAG systems include?",
+    "expected_behavior": "answer",
+    "expected_doc_id": "rag",
+    "expected_keywords": ["retrieval", "reranking", "citations"]
+  },
+  {
+    "id": "answerable_eval_001",
+    "question": "How should RAG systems be evaluated?",
+    "expected_behavior": "answer",
+    "expected_doc_id": "eval",
+    "expected_keywords": ["retrieval", "generation"]
+  },
+  {
+    "id": "unanswerable_private_001",
+    "question": "What is Alice's private salary?",
+    "expected_behavior": "refuse"
+  }
+]
+

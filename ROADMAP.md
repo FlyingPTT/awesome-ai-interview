@@ -26,6 +26,7 @@ This roadmap tracks the content plan for the repository.
 - [x] Minimal agent framework project.
 - [x] RAG mini system example.
 - [x] Model router example.
+- [x] RAG eval set example.
 - [ ] End-to-end RAG reference implementation.
 - [ ] Coding agent reference implementation.
 - [ ] AI interview simulator demo.
@@ -38,6 +39,7 @@ This roadmap tracks the content plan for the repository.
 - [ ] Multimodal model paper map.
 - [x] Efficient inference paper map.
 - [x] LLM evaluation paper map.
+- [x] Engineering paper summaries.
 
 ## v0.5 Community Growth
 

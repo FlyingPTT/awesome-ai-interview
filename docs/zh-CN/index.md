@@ -21,6 +21,8 @@ title: Awesome AI Interview
 | 可运行代码 | [Examples](../../zh-CN/examples/README.md) |
 | RAG 实现 | [RAG Mini System](../../zh-CN/examples/rag-mini-system/README.md) |
 | 模型路由 | [Model Router](../../zh-CN/examples/model-router/README.md) |
+| RAG 评估 | [RAG Eval Set](../../zh-CN/examples/rag-eval-set/README.md) |
+| 论文摘要 | [论文摘要](../../zh-CN/paper-summaries/README.md) |
 | 高 star 仓库 | [高 Star 高质量 AI 仓库汇总](../../zh-CN/repos/curated-ai-repositories.md) |
 
 ## 可运行 Examples
@@ -29,6 +31,7 @@ title: Awesome AI Interview
 - [LLM Eval Harness](../../zh-CN/examples/llm-eval-harness/README.md)
 - [RAG Mini System](../../zh-CN/examples/rag-mini-system/README.md)
 - [Model Router](../../zh-CN/examples/model-router/README.md)
+- [RAG Eval Set](../../zh-CN/examples/rag-eval-set/README.md)
 
 ## 为什么做这个仓库
 

@@ -41,4 +41,12 @@ echo "Running model router tests..."
 python3 -m unittest discover examples/model-router/tests
 
 echo
+echo "Running RAG eval set..."
+python3 examples/rag-eval-set/evaluate.py --report /tmp/rag-eval-report.json
+
+echo
+echo "Running RAG eval set tests..."
+python3 -m unittest discover examples/rag-eval-set/tests
+
+echo
 echo "All examples passed."

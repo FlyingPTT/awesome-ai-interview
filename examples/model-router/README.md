@@ -9,6 +9,7 @@ It demonstrates:
 - Cost estimation.
 - Latency estimation.
 - Explainable routing decisions.
+- Fallback/cascade from small model to large model when confidence is low.
 
 ## Run
 
@@ -29,4 +30,12 @@ python3 -m unittest discover examples/model-router/tests
 - High-risk tasks should route to stronger models or human review.
 - Routing policies need evaluation because wrong routing can silently degrade quality.
 - Model routers should expose reasons, cost, and latency.
+- Cascades should expose route paths so silent quality degradation can be debugged.
 
+## Fallback Policy
+
+The demo starts simple tasks on the small model. If `small_model_confidence` is below `0.7`, the router escalates to the large model and records a route path such as:
+
+```text
+small-fast-model -> large-reasoning-model
+```

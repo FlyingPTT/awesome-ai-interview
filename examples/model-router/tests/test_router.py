@@ -28,7 +28,17 @@ class ModelRouterTests(unittest.TestCase):
         self.assertIn("estimated_cost_usd", result)
         self.assertGreater(result["estimated_latency_ms"], 0)
 
+    def test_low_confidence_fallback_escalates(self):
+        decision = ModelRouter().route_with_fallback("Format this output", small_model_confidence=0.2)
+        self.assertEqual(decision.model, LARGE_MODEL)
+        self.assertTrue(decision.fallback_used)
+        self.assertEqual(decision.route_path, (SMALL_MODEL.name, LARGE_MODEL.name))
+
+    def test_high_confidence_keeps_small_model(self):
+        decision = ModelRouter().route_with_fallback("Format this output", small_model_confidence=0.95)
+        self.assertEqual(decision.model, SMALL_MODEL)
+        self.assertFalse(decision.fallback_used)
+
 
 if __name__ == "__main__":
     unittest.main()
-

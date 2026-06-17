@@ -26,6 +26,7 @@
 - [x] Minimal Agent Framework 项目。
 - [x] RAG mini system example。
 - [x] Model router example。
+- [x] RAG eval set example。
 - [ ] 端到端 RAG 参考实现。
 - [ ] Coding Agent 参考实现。
 - [ ] AI 面试模拟器 demo。
@@ -38,6 +39,7 @@
 - [ ] 多模态模型论文路线图。
 - [x] 高效推理论文路线图。
 - [x] LLM Evaluation 论文路线图。
+- [x] 工程视角论文摘要。
 
 ## v0.5 社区增长
 

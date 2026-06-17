@@ -25,6 +25,8 @@ This repository curates high-frequency interview questions, system design notes,
 | Learn LLM evaluation | [LLM Eval Harness](examples/llm-eval-harness/) |
 | Learn RAG implementation | [RAG Mini System](examples/rag-mini-system/) |
 | Learn model routing | [Model Router](examples/model-router/) |
+| Evaluate RAG quality | [RAG Eval Set](examples/rag-eval-set/) |
+| Read paper summaries | [Paper Summaries](paper-summaries/README.md) |
 | Follow high-quality AI repos | [Curated High-Star AI Repositories](repos/curated-ai-repositories.md) |
 | Study in one week | [7-Day AI Interview Checklist](roadmap/7-day-checklist.md) |
 | Avoid common mistakes | [Common AI Interview Pitfalls](interviews/common-pitfalls.md) |
@@ -49,6 +51,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [Agent Skills Catalog](skills/agent-skills-catalog.md)
 - [Resume-Ready AI Projects](projects/README.md)
 - [Runnable Examples](examples/)
+- [Paper Summaries](paper-summaries/README.md)
 - [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
 - [GitHub Setup Guide](GITHUB_SETUP.md)
 - [Docs Site Source](docs/)
@@ -97,6 +100,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 - Minimal agent framework.
 - Runnable minimal agent framework and evaluation harness examples.
 - RAG mini system and model router examples.
+- RAG eval set and engineering-oriented paper summaries.
 - Paper reading assistant.
 - AI interview simulator.
 - Agent skill marketplace prototype.

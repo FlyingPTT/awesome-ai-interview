@@ -9,6 +9,7 @@
 - 成本估算。
 - 延迟估算。
 - 可解释 routing decision。
+- 小模型置信度低时 fallback/cascade 到大模型。
 
 ## 运行
 
@@ -29,4 +30,12 @@ python3 -m unittest discover examples/model-router/tests
 - 高风险任务应该路由到更强模型或人工 review。
 - Routing policy 需要评估，因为错误路由可能静默降低质量。
 - Model router 应暴露 reason、cost 和 latency。
+- Cascade 应暴露 route path，方便 debug 静默质量下降。
 
+## Fallback Policy
+
+这个 demo 会先把简单任务交给小模型。如果 `small_model_confidence` 低于 `0.7`，router 会升级到大模型，并记录 route path，例如：
+
+```text
+small-fast-model -> large-reasoning-model
+```

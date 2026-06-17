@@ -21,6 +21,8 @@ A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resu
 | Runnable code | [Examples](../examples/) |
 | RAG implementation | [RAG Mini System](../examples/rag-mini-system/) |
 | Model routing | [Model Router](../examples/model-router/) |
+| RAG evaluation | [RAG Eval Set](../examples/rag-eval-set/) |
+| Paper summaries | [Paper Summaries](../paper-summaries/README.md) |
 | High-star repos | [Curated AI Repositories](../repos/curated-ai-repositories.md) |
 
 ## Runnable Examples
@@ -29,6 +31,7 @@ A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resu
 - [LLM Eval Harness](../examples/llm-eval-harness/)
 - [RAG Mini System](../examples/rag-mini-system/)
 - [Model Router](../examples/model-router/)
+- [RAG Eval Set](../examples/rag-eval-set/)
 
 ## Why This Repo Exists
 
