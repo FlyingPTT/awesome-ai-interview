@@ -43,7 +43,11 @@ This roadmap tracks the content plan for the repository.
 - [x] Bilingual content structure.
 - [x] Curated high-star repository list.
 - [x] 7-day study plan.
-- [ ] Issue templates.
-- [ ] Pull request template.
+- [x] 7-day checklist.
+- [x] Common interview pitfalls.
+- [x] Issue templates.
+- [x] Pull request template.
+- [x] Runnable examples CI.
+- [x] GitHub setup guide.
 - [ ] Weekly AI interview digest.
 - [ ] Star history badge.

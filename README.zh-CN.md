@@ -7,10 +7,25 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Bilingual](https://img.shields.io/badge/docs-English%20%7C%20中文-blue)](README.md)
 [![Awesome](https://img.shields.io/badge/awesome-AI%20interview-orange)](README.zh-CN.md)
+[![Examples](https://github.com/FlyingPTT/awesome-ai-interview/actions/workflows/examples.yml/badge.svg)](https://github.com/FlyingPTT/awesome-ai-interview/actions/workflows/examples.yml)
 
 面向 LLM、RAG、AI Agent 和 AI Research Engineer 岗位的面试知识库。
 
 本仓库系统整理高频面试题、系统设计笔记、研究路线图、可复用 AI skills 和可写进简历的项目模板。目标不是堆资料，而是帮助候选人形成一套能在面试中讲清楚的 AI 工程知识体系。
+
+## 快速导航
+
+| 目标 | 从这里开始 |
+| --- | --- |
+| 准备 LLM 面试 | [100 道 LLM 面试题](zh-CN/interviews/100-llm-interview-questions.md) |
+| 准备 RAG 面试 | [50 道 RAG 面试题](zh-CN/interviews/50-rag-interview-questions.md) |
+| 准备 Agent 面试 | [50 道 AI Agent 面试题](zh-CN/interviews/50-agent-interview-questions.md) |
+| 构建简历项目 | [可运行 Examples](zh-CN/examples/README.md) |
+| 学习 Agent 工具调度 | [Minimal Agent Framework](zh-CN/examples/minimal-agent-framework/README.md) |
+| 学习 LLM 评估 | [LLM Eval Harness](zh-CN/examples/llm-eval-harness/README.md) |
+| 跟踪高质量 AI 仓库 | [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md) |
+| 一周打卡学习 | [7 天 AI 面试打卡清单](zh-CN/roadmap/7-day-checklist.md) |
+| 避开面试常见坑 | [AI 面试常见坑](zh-CN/interviews/common-pitfalls.md) |
 
 ## 快速入口
 
@@ -18,6 +33,7 @@
 - [AI Agent 工程师路线图](zh-CN/roadmap/ai-agent-engineer.md)
 - [RAG 工程师路线图](zh-CN/roadmap/rag-engineer.md)
 - [7 天 AI 面试学习路线](zh-CN/roadmap/7-day-study-plan.md)
+- [7 天 AI 面试打卡清单](zh-CN/roadmap/7-day-checklist.md)
 - [100 道 LLM 面试题](zh-CN/interviews/100-llm-interview-questions.md)
 - [50 道 RAG 面试题](zh-CN/interviews/50-rag-interview-questions.md)
 - [50 道 AI Agent 面试题](zh-CN/interviews/50-agent-interview-questions.md)
@@ -26,11 +42,13 @@
 - [RAG 系统设计笔记](zh-CN/interviews/rag.md)
 - [LLM 系统设计笔记](zh-CN/interviews/system-design.md)
 - [LLM 评估笔记](zh-CN/interviews/eval.md)
+- [AI 面试常见坑](zh-CN/interviews/common-pitfalls.md)
 - [AI Skills 合集](zh-CN/skills/README.md)
 - [Agent Skills Catalog](zh-CN/skills/agent-skills-catalog.md)
 - [可写进简历的 AI 项目](zh-CN/projects/README.md)
 - [可运行 Examples](zh-CN/examples/README.md)
 - [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
+- [GitHub 设置指南](zh-CN/GITHUB_SETUP.md)
 - [仓库路线图](zh-CN/ROADMAP.md)
 
 ## 你能在这里找到什么

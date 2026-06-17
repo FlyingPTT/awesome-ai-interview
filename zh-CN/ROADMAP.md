@@ -43,7 +43,11 @@
 - [x] 双语内容结构。
 - [x] 高 star 仓库汇总。
 - [x] 7 天学习路线。
-- [ ] Issue 模板。
-- [ ] Pull Request 模板。
+- [x] 7 天打卡清单。
+- [x] 面试常见坑。
+- [x] Issue 模板。
+- [x] Pull Request 模板。
+- [x] 可运行 examples CI。
+- [x] GitHub 设置指南。
 - [ ] 每周 AI 面试 digest。
 - [ ] Star history badge。

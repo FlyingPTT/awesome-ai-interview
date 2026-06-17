@@ -7,10 +7,25 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Bilingual](https://img.shields.io/badge/docs-English%20%7C%20中文-blue)](README.zh-CN.md)
 [![Awesome](https://img.shields.io/badge/awesome-AI%20interview-orange)](README.md)
+[![Examples](https://github.com/FlyingPTT/awesome-ai-interview/actions/workflows/examples.yml/badge.svg)](https://github.com/FlyingPTT/awesome-ai-interview/actions/workflows/examples.yml)
 
 A practical, interview-oriented handbook for LLM, RAG, AI Agent, and AI research engineer roles.
 
 This repository curates high-frequency interview questions, system design notes, research roadmaps, reusable AI skills, and resume-ready project templates. The goal is to help candidates build a coherent knowledge system instead of memorizing scattered notes.
+
+## Quick Navigation
+
+| Goal | Start Here |
+| --- | --- |
+| Prepare for LLM interviews | [100 LLM Interview Questions](interviews/100-llm-interview-questions.md) |
+| Prepare for RAG interviews | [50 RAG Interview Questions](interviews/50-rag-interview-questions.md) |
+| Prepare for agent interviews | [50 AI Agent Interview Questions](interviews/50-agent-interview-questions.md) |
+| Build a resume project | [Runnable Examples](examples/) |
+| Learn agent tool orchestration | [Minimal Agent Framework](examples/minimal-agent-framework/) |
+| Learn LLM evaluation | [LLM Eval Harness](examples/llm-eval-harness/) |
+| Follow high-quality AI repos | [Curated High-Star AI Repositories](repos/curated-ai-repositories.md) |
+| Study in one week | [7-Day AI Interview Checklist](roadmap/7-day-checklist.md) |
+| Avoid common mistakes | [Common AI Interview Pitfalls](interviews/common-pitfalls.md) |
 
 ## Start Here
 
@@ -18,6 +33,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [AI Agent Engineer Roadmap](roadmap/ai-agent-engineer.md)
 - [RAG Engineer Roadmap](roadmap/rag-engineer.md)
 - [7-Day AI Interview Study Plan](roadmap/7-day-study-plan.md)
+- [7-Day AI Interview Checklist](roadmap/7-day-checklist.md)
 - [100 LLM Interview Questions](interviews/100-llm-interview-questions.md)
 - [50 RAG Interview Questions](interviews/50-rag-interview-questions.md)
 - [50 AI Agent Interview Questions](interviews/50-agent-interview-questions.md)
@@ -26,11 +42,13 @@ This repository curates high-frequency interview questions, system design notes,
 - [RAG System Design Notes](interviews/rag.md)
 - [LLM System Design Notes](interviews/system-design.md)
 - [LLM Evaluation Notes](interviews/eval.md)
+- [Common AI Interview Pitfalls](interviews/common-pitfalls.md)
 - [AI Skills Collection](skills/README.md)
 - [Agent Skills Catalog](skills/agent-skills-catalog.md)
 - [Resume-Ready AI Projects](projects/README.md)
 - [Runnable Examples](examples/)
 - [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
+- [GitHub Setup Guide](GITHUB_SETUP.md)
 - [Repository Roadmap](ROADMAP.md)
 
 ## What You Will Find
