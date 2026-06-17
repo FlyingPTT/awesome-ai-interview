@@ -4,6 +4,10 @@
   <b>English</b> | <a href="README.zh-CN.md">中文</a>
 </p>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Bilingual](https://img.shields.io/badge/docs-English%20%7C%20中文-blue)](README.zh-CN.md)
+[![Awesome](https://img.shields.io/badge/awesome-AI%20interview-orange)](README.md)
+
 A practical, interview-oriented handbook for LLM, RAG, AI Agent, and AI research engineer roles.
 
 This repository curates high-frequency interview questions, system design notes, research roadmaps, reusable AI skills, and resume-ready project templates. The goal is to help candidates build a coherent knowledge system instead of memorizing scattered notes.
@@ -25,6 +29,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [AI Skills Collection](skills/README.md)
 - [Agent Skills Catalog](skills/agent-skills-catalog.md)
 - [Resume-Ready AI Projects](projects/README.md)
+- [Runnable Examples](examples/)
 - [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
 - [Repository Roadmap](ROADMAP.md)
 
@@ -68,6 +73,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 - Coding agent with review and repair loop.
 - LLM evaluation harness.
 - Minimal agent framework.
+- Runnable minimal agent framework and evaluation harness examples.
 - Paper reading assistant.
 - AI interview simulator.
 - Agent skill marketplace prototype.
@@ -79,6 +85,12 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 3. Build one project from `projects/`.
 4. Reuse skills from `skills/` to accelerate study and implementation.
 5. Turn the project into a resume bullet using `templates/resume-project.md`.
+
+## GitHub Topics
+
+Suggested topics for this repository:
+
+`llm`, `rag`, `ai-agent`, `interview`, `awesome-list`, `llmops`, `generative-ai`, `prompt-engineering`, `coding-agent`, `ai-engineering`
 
 ## Contribution Guide
 

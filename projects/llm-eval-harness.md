@@ -4,6 +4,8 @@
 
 Build a small evaluation harness that can run prompts, models, tools, and expected outputs through repeatable test cases. This is a strong interview project because it shows you understand how LLM systems are shipped safely, not just demoed.
 
+Runnable example: [examples/llm-eval-harness](../examples/llm-eval-harness/).
+
 ## What The Harness Should Do
 
 - Load test cases from JSON or YAML.
@@ -117,4 +119,3 @@ class EvalHarness:
 ## Resume Bullet
 
 Built an LLM evaluation harness that runs versioned test suites across prompts and models, supports deterministic and rubric-based evaluators, and reports quality, latency, cost, and regression metrics for safe LLM application releases.
-

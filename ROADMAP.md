@@ -31,11 +31,11 @@ This roadmap tracks the content plan for the repository.
 
 ## v0.4 Research Maps
 
-- [ ] AI agent paper map.
-- [ ] RAG paper map.
+- [x] AI agent paper map.
+- [x] RAG paper map.
 - [ ] Multimodal model paper map.
-- [ ] Efficient inference paper map.
-- [ ] LLM evaluation paper map.
+- [x] Efficient inference paper map.
+- [x] LLM evaluation paper map.
 
 ## v0.5 Community Growth
 

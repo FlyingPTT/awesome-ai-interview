@@ -4,6 +4,8 @@
 
 构建一个小型 evaluation harness，用于把 prompts、models、tools 和 expected outputs 放入可重复测试用例中执行。这个项目很适合面试，因为它体现你理解 LLM 系统如何安全上线，而不只是做 demo。
 
+可运行示例：[examples/llm-eval-harness](../../examples/llm-eval-harness/)。
+
 ## Harness 应该做什么
 
 - 从 JSON 或 YAML 加载测试用例。
@@ -117,4 +119,3 @@ class EvalHarness:
 ## 简历 Bullet
 
 构建 LLM evaluation harness，支持跨 prompt 和 model 版本运行测试套件，包含 deterministic 与 rubric-based evaluators，并报告 quality、latency、cost 和 regression metrics，用于 LLM 应用安全发布。
-

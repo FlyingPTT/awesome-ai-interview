@@ -5,11 +5,12 @@
 ## 主题
 
 - [AI Agents](agents.md)
-- RAG。
+- [RAG](rag.md)
+- [LLM Agents](llm-agents.md)
+- [Evaluation](evaluation.md)
+- [高效推理](efficient-inference.md)
 - 多模态模型。
 - 推理能力。
-- 高效推理。
-- Evaluation。
 
 ## 论文总结格式
 
@@ -22,4 +23,3 @@
 - 局限。
 - 实现注意事项。
 - 面试 talking points。
-

@@ -6,6 +6,8 @@ Build a small agent framework from scratch to understand how models are schedule
 
 This project is useful in interviews because it demonstrates the mechanics behind agent frameworks rather than only using a library.
 
+Runnable example: [examples/minimal-agent-framework](../examples/minimal-agent-framework/).
+
 ## What The Framework Should Do
 
 - Accept a user goal.
@@ -140,4 +142,3 @@ while not done and state.budget_remaining > 0:
 ## Resume Bullet
 
 Implemented a minimal agent framework with explicit state, tool registry, schema validation, iterative model-tool-observation loop, budgeted execution, human approval hooks, and trajectory logging for debuggable AI workflows.
-

@@ -6,6 +6,8 @@
 
 这个项目适合面试，因为它展示你理解 Agent framework 背后的机制，而不只是会使用现成库。
 
+可运行示例：[examples/minimal-agent-framework](../../examples/minimal-agent-framework/)。
+
 ## Framework 应该做什么
 
 - 接收用户目标。
@@ -140,4 +142,3 @@ while not done and state.budget_remaining > 0:
 ## 简历 Bullet
 
 实现最小 Agent framework，包含显式 state、tool registry、schema validation、模型-工具-observation 循环、budgeted execution、人工审批 hooks 和 trajectory logging，用于可 debug 的 AI workflows。
-

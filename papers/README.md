@@ -5,11 +5,12 @@ This directory tracks research topics that are useful for AI interviews and proj
 ## Topics
 
 - [AI Agents](agents.md)
-- RAG.
+- [RAG](rag.md)
+- [LLM Agents](llm-agents.md)
+- [Evaluation](evaluation.md)
+- [Efficient Inference](efficient-inference.md)
 - Multimodal models.
 - Reasoning.
-- Efficient inference.
-- Evaluation.
 
 ## Paper Summary Format
 
@@ -22,4 +23,3 @@ Each paper summary should include:
 - Limitations.
 - Implementation notes.
 - Interview talking points.
-

@@ -1,0 +1,35 @@
+name: Interview Question
+description: Suggest a new interview question or improve an existing answer.
+title: "[Question] "
+labels: ["interview-question"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - LLM basics
+        - RAG
+        - AI agents
+        - Evaluation
+        - System design
+        - Inference
+        - Safety
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Write the interview question.
+    validations:
+      required: true
+  - type: textarea
+    id: answer
+    attributes:
+      label: Suggested Answer
+      description: Include short answer, expanded answer, follow-ups, and common pitfalls if possible.
+    validations:
+      required: false
+

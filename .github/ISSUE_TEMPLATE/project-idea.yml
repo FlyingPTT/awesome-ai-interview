@@ -1,0 +1,27 @@
+name: Project Idea
+description: Suggest a resume-ready AI project or runnable example.
+title: "[Project] "
+labels: ["project"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What problem does this project solve?
+    validations:
+      required: true
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Architecture
+      description: List the core components and data flow.
+    validations:
+      required: false
+  - type: textarea
+    id: interview_value
+    attributes:
+      label: Interview Value
+      description: What interview questions or resume bullets would this project support?
+    validations:
+      required: true
+

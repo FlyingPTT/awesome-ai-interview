@@ -4,6 +4,10 @@
   <b>中文</b> | <a href="README.md">English</a>
 </p>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Bilingual](https://img.shields.io/badge/docs-English%20%7C%20中文-blue)](README.md)
+[![Awesome](https://img.shields.io/badge/awesome-AI%20interview-orange)](README.zh-CN.md)
+
 面向 LLM、RAG、AI Agent 和 AI Research Engineer 岗位的面试知识库。
 
 本仓库系统整理高频面试题、系统设计笔记、研究路线图、可复用 AI skills 和可写进简历的项目模板。目标不是堆资料，而是帮助候选人形成一套能在面试中讲清楚的 AI 工程知识体系。
@@ -25,6 +29,7 @@
 - [AI Skills 合集](zh-CN/skills/README.md)
 - [Agent Skills Catalog](zh-CN/skills/agent-skills-catalog.md)
 - [可写进简历的 AI 项目](zh-CN/projects/README.md)
+- [可运行 Examples](zh-CN/examples/README.md)
 - [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
 - [仓库路线图](zh-CN/ROADMAP.md)
 
@@ -68,6 +73,7 @@
 - 带 review 和 repair loop 的 Coding Agent。
 - LLM Evaluation Harness。
 - Minimal Agent Framework。
+- 可运行的 minimal agent framework 和 evaluation harness examples。
 - 论文阅读助手。
 - AI 面试模拟器。
 - Agent Skill Marketplace 原型。
@@ -79,6 +85,12 @@
 3. 从 `zh-CN/projects/` 选择一个项目做作品集。
 4. 复用 `zh-CN/skills/` 中的工作流提高学习和实现效率。
 5. 用 `zh-CN/templates/resume-project.md` 把项目改写成简历 bullet。
+
+## GitHub Topics
+
+建议给仓库添加这些 topics：
+
+`llm`, `rag`, `ai-agent`, `interview`, `awesome-list`, `llmops`, `generative-ai`, `prompt-engineering`, `coding-agent`, `ai-engineering`
 
 ## 贡献
 

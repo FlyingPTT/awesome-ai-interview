@@ -1,0 +1,27 @@
+name: Repository Recommendation
+description: Recommend a high-quality AI repository to include.
+title: "[Repo] "
+labels: ["repository"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why It Matters
+      description: Explain why this repository is useful for LLM/RAG/Agent interviews or engineering.
+    validations:
+      required: true
+  - type: textarea
+    id: interview_angle
+    attributes:
+      label: Interview Angle
+      description: What should candidates learn from this repo?
+    validations:
+      required: false
+
