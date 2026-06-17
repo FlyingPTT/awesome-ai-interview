@@ -24,6 +24,8 @@ This roadmap tracks the content plan for the repository.
 
 - [x] LLM evaluation harness project.
 - [x] Minimal agent framework project.
+- [x] RAG mini system example.
+- [x] Model router example.
 - [ ] End-to-end RAG reference implementation.
 - [ ] Coding agent reference implementation.
 - [ ] AI interview simulator demo.
@@ -50,4 +52,5 @@ This roadmap tracks the content plan for the repository.
 - [x] Runnable examples CI.
 - [x] GitHub setup guide.
 - [x] Weekly AI interview digest.
+- [x] Social preview source asset.
 - [ ] Star history badge.

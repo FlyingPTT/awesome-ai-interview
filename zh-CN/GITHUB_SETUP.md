@@ -83,6 +83,14 @@ LLM • RAG • AI Agents • Skills • Papers • Projects
 - 副标题：`LLM | RAG | Agents | Skills | Projects`。
 - 小标识：`English + 中文`。
 
+本仓库已经包含一个可用的 SVG 源文件：
+
+```text
+assets/social-preview/awesome-ai-interview.svg
+```
+
+GitHub social preview 上传更偏好 PNG/JPG。你可以用浏览器截图或图片转换工具把 SVG 导出为 PNG。
+
 ## GitHub 主页置顶文案
 
 如果把仓库 pin 到 GitHub profile，可以用：

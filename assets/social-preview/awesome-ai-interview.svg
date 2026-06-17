@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome AI Interview</title>
+  <desc id="desc">Social preview image for a bilingual AI interview handbook.</desc>
+  <rect width="1280" height="640" fill="#111827"/>
+  <rect x="64" y="64" width="1152" height="512" rx="28" fill="#f9fafb"/>
+  <text x="110" y="180" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Awesome AI Interview</text>
+  <text x="112" y="250" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500">LLM • RAG • AI Agents • Skills • Papers • Projects</text>
+  <g transform="translate(112 320)">
+    <rect width="200" height="58" rx="12" fill="#2563eb"/>
+    <text x="30" y="38" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">English</text>
+  </g>
+  <g transform="translate(332 320)">
+    <rect width="180" height="58" rx="12" fill="#059669"/>
+    <text x="42" y="38" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">中文</text>
+  </g>
+  <g transform="translate(112 424)" fill="#111827" font-family="Inter, Arial, sans-serif">
+    <text x="0" y="0" font-size="28" font-weight="700">100+ interview questions</text>
+    <text x="0" y="44" font-size="28" font-weight="700">Runnable agent and eval examples</text>
+    <text x="0" y="88" font-size="28" font-weight="700">Resume-ready AI projects</text>
+  </g>
+  <text x="812" y="525" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">github.com/FlyingPTT/awesome-ai-interview</text>
+</svg>
+

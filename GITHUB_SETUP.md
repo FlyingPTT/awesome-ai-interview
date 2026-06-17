@@ -83,6 +83,14 @@ Suggested visual style:
 - Subtitle: `LLM | RAG | Agents | Skills | Projects`.
 - Small badge: `English + 中文`.
 
+This repository includes a ready-to-use SVG source:
+
+```text
+assets/social-preview/awesome-ai-interview.svg
+```
+
+GitHub social preview upload prefers PNG/JPG. You can export the SVG to PNG with a browser screenshot or an image conversion tool.
+
 ## Pinned Repository Pitch
 
 Use this when pinning the repo on your GitHub profile:

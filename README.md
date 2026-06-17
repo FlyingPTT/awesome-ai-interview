@@ -23,6 +23,8 @@ This repository curates high-frequency interview questions, system design notes,
 | Build a resume project | [Runnable Examples](examples/) |
 | Learn agent tool orchestration | [Minimal Agent Framework](examples/minimal-agent-framework/) |
 | Learn LLM evaluation | [LLM Eval Harness](examples/llm-eval-harness/) |
+| Learn RAG implementation | [RAG Mini System](examples/rag-mini-system/) |
+| Learn model routing | [Model Router](examples/model-router/) |
 | Follow high-quality AI repos | [Curated High-Star AI Repositories](repos/curated-ai-repositories.md) |
 | Study in one week | [7-Day AI Interview Checklist](roadmap/7-day-checklist.md) |
 | Avoid common mistakes | [Common AI Interview Pitfalls](interviews/common-pitfalls.md) |
@@ -94,6 +96,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 - LLM evaluation harness.
 - Minimal agent framework.
 - Runnable minimal agent framework and evaluation harness examples.
+- RAG mini system and model router examples.
 - Paper reading assistant.
 - AI interview simulator.
 - Agent skill marketplace prototype.
