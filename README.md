@@ -15,7 +15,7 @@ This repository curates high-frequency interview questions, system design notes,
 
 ![Awesome AI Interview cover](assets/covers/awesome-ai-interview-cover.png)
 
-![Awesome AI Interview knowledge map](assets/diagrams/repo-map.svg)
+![Awesome AI Interview repository structure map](assets/diagrams/repo-structure-map.png)
 
 ![AI interview study path](assets/diagrams/study-path.svg)
 

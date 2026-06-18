@@ -10,7 +10,7 @@ title: Awesome AI Interview
 
 ![Awesome AI Interview 封面图](../assets/covers/awesome-ai-interview-cover.png)
 
-![Awesome AI Interview 知识地图](../assets/diagrams/zh-CN/repo-map.svg)
+![Awesome AI Interview 仓库结构图](../assets/diagrams/zh-CN/repo-structure-map.png)
 
 ![AI 面试 Study Path](../assets/diagrams/zh-CN/study-path.svg)
 
