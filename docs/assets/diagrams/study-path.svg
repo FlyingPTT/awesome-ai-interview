@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img" aria-labelledby="title desc">
-  <title id="title">AI interview study path</title>
+  <title id="title">Study Path From Notes To Interview</title>
   <desc id="desc">A five-step study path from roadmap to mock interview.</desc>
   <defs>
     <style>.bg{fill:#f8fafc}.step{fill:#fff;stroke:#cbd5e1;stroke-width:2}.num{fill:#2563eb}.title{font:700 28px Arial,sans-serif;fill:#0f172a}.label{font:700 18px Arial,sans-serif;fill:#0f172a}.small{font:400 13px Arial,sans-serif;fill:#475569}.n{font:700 18px Arial,sans-serif;fill:#fff}.line{stroke:#64748b;stroke-width:2.5;fill:none}</style>
@@ -8,16 +8,16 @@
   <rect class="bg" width="1120" height="420"/>
   <text x="56" y="62" class="title">Study Path From Notes To Interview</text>
   <g marker-end="url(#arrow)">
-    <path class="line" d="M218 220 H318"/>
-    <path class="line" d="M418 220 H518"/>
-    <path class="line" d="M618 220 H718"/>
-    <path class="line" d="M818 220 H918"/>
+    <path class="line" d="M216 220 H268"/>
+    <path class="line" d="M428 220 H480"/>
+    <path class="line" d="M640 220 H692"/>
+    <path class="line" d="M852 220 H904"/>
   </g>
   <g>
-    <rect x="58" y="150" width="160" height="140" rx="12" class="step"/><circle cx="90" cy="182" r="20" class="num"/><text x="90" y="188" text-anchor="middle" class="n">1</text><text x="86" y="225" class="label">Roadmap</text><text x="86" y="253" class="small">Choose target role</text>
-    <rect x="318" y="150" width="160" height="140" rx="12" class="step"/><circle cx="350" cy="182" r="20" class="num"/><text x="350" y="188" text-anchor="middle" class="n">2</text><text x="346" y="225" class="label">Questions</text><text x="346" y="253" class="small">Practice concepts</text>
-    <rect x="518" y="150" width="160" height="140" rx="12" class="step"/><circle cx="550" cy="182" r="20" class="num"/><text x="550" y="188" text-anchor="middle" class="n">3</text><text x="546" y="225" class="label">Examples</text><text x="546" y="253" class="small">Run code locally</text>
-    <rect x="718" y="150" width="160" height="140" rx="12" class="step"/><circle cx="750" cy="182" r="20" class="num"/><text x="750" y="188" text-anchor="middle" class="n">4</text><text x="746" y="225" class="label">Project</text><text x="746" y="253" class="small">Build resume proof</text>
-    <rect x="918" y="150" width="160" height="140" rx="12" class="step"/><circle cx="950" cy="182" r="20" class="num"/><text x="950" y="188" text-anchor="middle" class="n">5</text><text x="946" y="225" class="label">Mock</text><text x="946" y="253" class="small">Explain tradeoffs</text>
+    <rect x="56" y="150" width="160" height="140" rx="12" class="step"/><circle cx="88" cy="182" r="20" class="num"/><text x="88" y="188" text-anchor="middle" class="n">1</text><text x="84" y="225" class="label">Roadmap</text><text x="84" y="253" class="small">Choose target role</text>
+    <rect x="268" y="150" width="160" height="140" rx="12" class="step"/><circle cx="300" cy="182" r="20" class="num"/><text x="300" y="188" text-anchor="middle" class="n">2</text><text x="296" y="225" class="label">Questions</text><text x="296" y="253" class="small">Practice concepts</text>
+    <rect x="480" y="150" width="160" height="140" rx="12" class="step"/><circle cx="512" cy="182" r="20" class="num"/><text x="512" y="188" text-anchor="middle" class="n">3</text><text x="508" y="225" class="label">Examples</text><text x="508" y="253" class="small">Run code locally</text>
+    <rect x="692" y="150" width="160" height="140" rx="12" class="step"/><circle cx="724" cy="182" r="20" class="num"/><text x="724" y="188" text-anchor="middle" class="n">4</text><text x="720" y="225" class="label">Project</text><text x="720" y="253" class="small">Build resume proof</text>
+    <rect x="904" y="150" width="160" height="140" rx="12" class="step"/><circle cx="936" cy="182" r="20" class="num"/><text x="936" y="188" text-anchor="middle" class="n">5</text><text x="932" y="225" class="label">Mock</text><text x="932" y="253" class="small">Explain tradeoffs</text>
   </g>
 </svg>
