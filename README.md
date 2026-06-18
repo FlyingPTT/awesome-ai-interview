@@ -13,6 +13,8 @@ A practical, interview-oriented handbook for LLM, RAG, AI Agent, and AI research
 
 This repository curates high-frequency interview questions, system design notes, research roadmaps, reusable AI skills, and resume-ready project templates. The goal is to help candidates build a coherent knowledge system instead of memorizing scattered notes.
 
+![Awesome AI Interview cover](assets/covers/awesome-ai-interview-cover.png)
+
 ![Awesome AI Interview knowledge map](assets/diagrams/repo-map.svg)
 
 ![AI interview study path](assets/diagrams/study-path.svg)

@@ -8,6 +8,8 @@ English | [中文](zh-CN/)
 
 A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resume-ready projects.
 
+![Awesome AI Interview cover](assets/covers/awesome-ai-interview-cover.png)
+
 ![Awesome AI Interview knowledge map](assets/diagrams/repo-map.svg)
 
 ![AI interview study path](assets/diagrams/study-path.svg)
