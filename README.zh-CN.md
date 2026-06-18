@@ -13,6 +13,10 @@
 
 本仓库系统整理高频面试题、系统设计笔记、研究路线图、可复用 AI skills 和可写进简历的项目模板。目标不是堆资料，而是帮助候选人形成一套能在面试中讲清楚的 AI 工程知识体系。
 
+![Awesome AI Interview 知识地图](assets/diagrams/zh-CN/repo-map.svg)
+
+![AI 面试 Study Path](assets/diagrams/zh-CN/study-path.svg)
+
 ## 快速导航
 
 | 目标 | 从这里开始 |

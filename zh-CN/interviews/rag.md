@@ -1,5 +1,7 @@
 # RAG 面试笔记
 
+![RAG Pipeline](../../assets/diagrams/zh-CN/rag-pipeline.svg)
+
 ## 系统设计模板
 
 面试中设计 RAG 系统时，建议覆盖：
@@ -40,4 +42,3 @@ Embedding retrieval 适合快速召回候选，不一定适合最终排序。Rer
 - 检索：recall、precision、MRR、nDCG、context relevance。
 - 生成：faithfulness、answer correctness、citation accuracy、refusal quality。
 - 系统：latency、cost、freshness、user satisfaction。
-

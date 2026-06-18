@@ -2,6 +2,8 @@
 
 This example implements a tiny agent framework with no external dependencies.
 
+![Agent loop](../../assets/diagrams/agent-loop.svg)
+
 It demonstrates:
 
 - Explicit agent state.

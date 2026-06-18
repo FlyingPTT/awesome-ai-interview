@@ -2,6 +2,8 @@
 
 这个 example 实现了一个无外部依赖的 tiny agent framework。
 
+![Agent Loop](../../../assets/diagrams/zh-CN/agent-loop.svg)
+
 它展示：
 
 - 显式 agent state。

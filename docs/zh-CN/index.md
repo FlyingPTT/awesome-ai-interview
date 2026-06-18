@@ -8,6 +8,10 @@ title: Awesome AI Interview
 
 面向 LLM、RAG、AI Agent 面试、skills、论文路线图和简历项目的中英文双语知识库。
 
+![Awesome AI Interview 知识地图](../assets/diagrams/zh-CN/repo-map.svg)
+
+![AI 面试 Study Path](../assets/diagrams/zh-CN/study-path.svg)
+
 ## 快速开始
 
 | 目标 | 链接 |

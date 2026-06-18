@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">RAG Pipeline</title>
+  <desc id="desc">从文档到带 citation 答案和 Evaluation 的 RAG Pipeline。</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.eval{fill:#ecfdf5;stroke:#22c55e;stroke-width:2}.title{font:700 28px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.label{font:700 16px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.small{font:400 13px Arial,"Noto Sans CJK SC",sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.4;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="1120" height="520"/><text x="56" y="58" class="title">面试中可讲清楚的 RAG Pipeline</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M180 205 H270"/><path class="line" d="M390 205 H480"/><path class="line" d="M600 205 H690"/><path class="line" d="M810 205 H900"/><path class="line" d="M550 280 V355 H275"/><path class="line" d="M970 280 V355 H765"/></g>
+  <rect x="60" y="150" width="120" height="110" rx="10" class="box"/><text x="88" y="190" class="label">Documents</text><text x="88" y="218" class="small">PDF、Markdown</text>
+  <rect x="270" y="150" width="120" height="110" rx="10" class="box"/><text x="298" y="190" class="label">Chunking</text><text x="298" y="218" class="small">size、overlap</text>
+  <rect x="480" y="150" width="120" height="110" rx="10" class="box"/><text x="508" y="190" class="label">Embedding</text><text x="508" y="218" class="small">vectors、index</text>
+  <rect x="690" y="150" width="120" height="110" rx="10" class="box"/><text x="718" y="190" class="label">Retrieval</text><text x="718" y="218" class="small">sparse/dense</text>
+  <rect x="900" y="150" width="150" height="110" rx="10" class="box"/><text x="928" y="190" class="label">Generation</text><text x="928" y="218" class="small">answer + citation</text>
+  <rect x="170" y="355" width="210" height="90" rx="10" class="eval"/><text x="205" y="392" class="label">Reranking</text><text x="205" y="420" class="small">提升 generation 前 precision</text>
+  <rect x="650" y="355" width="230" height="90" rx="10" class="eval"/><text x="685" y="392" class="label">Evaluation</text><text x="685" y="420" class="small">retrieval hit、faithfulness、refusal</text>
+</svg>

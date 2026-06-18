@@ -2,6 +2,8 @@
 
 A dependency-free model routing demo that chooses between a cheap fast model and a stronger reasoning model.
 
+![Model router decision flow](../../assets/diagrams/model-router.svg)
+
 It demonstrates:
 
 - Task classification by risk and complexity.

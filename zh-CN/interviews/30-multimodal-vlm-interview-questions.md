@@ -1,5 +1,7 @@
 # 30 道 Multimodal 与 VLM 面试题
 
+![Multimodal/VLM System](../../assets/diagrams/zh-CN/vlm-system.svg)
+
 本页覆盖多模态 AI、视觉语言模型、文档理解、UI Agent 和 Multimodal RAG。
 
 ## 基础
@@ -249,4 +251,3 @@
 - 带 OCR、layout-aware retrieval、citations 和 evaluation 的 document QA system。
 - 带 screenshots、action logs 和 safety approvals 的 UI Agent。
 - 带 visual grounding checks 的 chart QA benchmark。
-

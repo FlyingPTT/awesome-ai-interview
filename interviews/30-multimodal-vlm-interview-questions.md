@@ -1,5 +1,7 @@
 # 30 Multimodal And VLM Interview Questions
 
+![Multimodal VLM system](../assets/diagrams/vlm-system.svg)
+
 This page covers multimodal AI, vision-language models, document understanding, UI agents, and multimodal RAG.
 
 ## Foundations
@@ -249,4 +251,3 @@ Key points:
 - A document QA system with OCR, layout-aware retrieval, citations, and evaluation.
 - A UI agent with screenshots, action logs, and safety approvals.
 - A chart QA benchmark with visual grounding checks.
-

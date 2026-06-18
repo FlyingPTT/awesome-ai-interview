@@ -2,6 +2,8 @@
 
 一个无外部依赖、基于本地 Markdown 文件的 mini RAG 系统。
 
+![RAG Pipeline](../../../assets/diagrams/zh-CN/rag-pipeline.svg)
+
 它展示：
 
 - 本地文档 ingestion。

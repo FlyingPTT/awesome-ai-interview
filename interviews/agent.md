@@ -1,5 +1,7 @@
 # AI Agent Interview Notes
 
+![Agent loop](../assets/diagrams/agent-loop.svg)
+
 ## Agent System Design Template
 
 A strong answer should cover:
@@ -59,4 +61,3 @@ Agent tasks often have multiple valid paths, external side effects, changing env
 ### How do you make agents safer?
 
 Use least-privilege tools, explicit approvals for risky actions, sandboxing, audit logs, idempotent operations, dry-run modes, and bounded execution loops.
-

@@ -2,6 +2,8 @@
 
 一个无外部依赖的 model routing demo，在便宜快速模型和更强推理模型之间做选择。
 
+![Model Router 决策流程](../../../assets/diagrams/zh-CN/model-router.svg)
+
 它展示：
 
 - 按风险和复杂度进行任务分类。

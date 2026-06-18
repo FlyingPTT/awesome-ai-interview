@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Loop</title>
+  <desc id="desc">包含 memory、guardrails 和 stop conditions 的 model-tool-observation loop。</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.guard{fill:#fff7ed;stroke:#f97316;stroke-width:2}.title{font:700 28px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.label{font:700 17px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.small{font:400 13px Arial,"Noto Sans CJK SC",sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.5;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="960" height="560"/><text x="50" y="58" class="title">Minimal Agent Loop</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M480 135 V190"/><path class="line" d="M590 245 H695"/><path class="line" d="M760 310 V390"/><path class="line" d="M690 445 H575"/><path class="line" d="M380 445 H265"/><path class="line" d="M200 390 V310"/><path class="line" d="M270 245 H375"/><path class="line" d="M480 300 V370"/></g>
+  <rect x="380" y="105" width="200" height="70" rx="10" class="box"/><text x="438" y="134" class="label">User Task</text><text x="420" y="158" class="small">目标与 constraints</text>
+  <rect x="375" y="205" width="215" height="95" rx="12" class="box"/><text x="435" y="242" class="label">Model</text><text x="412" y="270" class="small">规划下一步 action</text>
+  <rect x="695" y="215" width="170" height="95" rx="12" class="box"/><text x="735" y="252" class="label">Tool Calling</text><text x="725" y="280" class="small">schema、args</text>
+  <rect x="665" y="390" width="200" height="95" rx="12" class="box"/><text x="715" y="427" class="label">Observation</text><text x="695" y="455" class="small">stdout、errors、files</text>
+  <rect x="370" y="370" width="205" height="95" rx="12" class="guard"/><text x="420" y="407" class="label">Guardrails</text><text x="398" y="435" class="small">budget、安全、approval</text>
+  <rect x="95" y="390" width="170" height="95" rx="12" class="box"/><text x="142" y="427" class="label">Memory</text><text x="120" y="455" class="small">state、trajectory</text>
+  <rect x="95" y="215" width="175" height="95" rx="12" class="box"/><text x="132" y="252" class="label">Stop</text><text x="118" y="280" class="small">final answer 或 fail</text>
+</svg>

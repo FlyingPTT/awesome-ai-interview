@@ -2,6 +2,8 @@
 
 一个轻量 coding agent demo，会在临时目录中修复 toy repository。
 
+![Coding Agent Repair Loop](../../../assets/diagrams/zh-CN/coding-agent-repair-loop.svg)
+
 它展示：
 
 - Issue parsing。
@@ -30,4 +32,3 @@ python3 -m unittest discover examples/coding-agent-mini/tests
 - Tests 是 coding agent 最强 verifier。
 - Diff summary 和 test output 让 agent 可审计。
 - 真实系统需要 sandboxing 和 permission controls。
-

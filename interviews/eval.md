@@ -1,5 +1,7 @@
 # LLM Evaluation Interview Notes
 
+![LLM eval harness](../assets/diagrams/eval-harness.svg)
+
 ## Why Evaluation Matters
 
 LLM applications are probabilistic systems. Prompt changes, model upgrades, data changes, and retrieval changes can all introduce regressions. Evaluation is the main mechanism for shipping safely.
@@ -42,4 +44,3 @@ Measures latency, cost, reliability, safety, and user satisfaction.
 - How do you evaluate an AI agent?
 - How do you build a regression test suite for prompts?
 - How do you evaluate RAG retrieval and generation separately?
-

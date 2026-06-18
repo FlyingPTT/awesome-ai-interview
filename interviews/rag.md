@@ -1,5 +1,7 @@
 # RAG Interview Notes
 
+![RAG pipeline](../assets/diagrams/rag-pipeline.svg)
+
 ## System Design Template
 
 When asked to design a RAG system, cover:
@@ -40,4 +42,3 @@ Evaluate both retrieval and generation.
 - Retrieval: recall, precision, MRR, nDCG, context relevance.
 - Generation: faithfulness, answer correctness, citation accuracy, refusal quality.
 - System: latency, cost, freshness, user satisfaction.
-

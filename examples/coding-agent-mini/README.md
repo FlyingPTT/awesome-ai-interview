@@ -2,6 +2,8 @@
 
 A dependency-light coding agent demo that repairs a toy repository in a temporary directory.
 
+![Coding agent repair loop](../../assets/diagrams/coding-agent-repair-loop.svg)
+
 It demonstrates:
 
 - Issue parsing.
@@ -30,4 +32,3 @@ python3 -m unittest discover examples/coding-agent-mini/tests
 - Tests are the strongest verifier for coding agents.
 - Diff summaries and test output make the agent auditable.
 - Real systems need sandboxing and permission controls.
-

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img" aria-labelledby="title desc">
+  <title id="title">LLM evaluation harness</title>
+  <desc id="desc">A harness that runs test cases through a model wrapper, evaluators, reports, and regression gate.</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.gate{fill:#fee2e2;stroke:#ef4444;stroke-width:2}.report{fill:#eff6ff;stroke:#3b82f6;stroke-width:2}.title{font:700 28px Arial,sans-serif;fill:#0f172a}.label{font:700 17px Arial,sans-serif;fill:#0f172a}.small{font:400 13px Arial,sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.4;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="1120" height="500"/><text x="56" y="58" class="title">LLM Eval Harness</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M220 215 H330"/><path class="line" d="M500 215 H610"/><path class="line" d="M780 215 H890"/><path class="line" d="M700 270 V340"/></g>
+  <rect x="70" y="155" width="150" height="120" rx="12" class="box"/><text x="100" y="195" class="label">Test Cases</text><text x="100" y="225" class="small">inputs, expected behavior</text>
+  <rect x="330" y="155" width="170" height="120" rx="12" class="box"/><text x="365" y="195" class="label">Model Wrapper</text><text x="365" y="225" class="small">prompt, model, config</text>
+  <rect x="610" y="155" width="170" height="120" rx="12" class="box"/><text x="655" y="195" class="label">Evaluators</text><text x="640" y="225" class="small">exact, rubric, latency</text>
+  <rect x="890" y="155" width="170" height="120" rx="12" class="report"/><text x="940" y="195" class="label">Report</text><text x="920" y="225" class="small">pass rate, failures, cost</text>
+  <rect x="590" y="340" width="220" height="90" rx="12" class="gate"/><text x="635" y="378" class="label">Regression Gate</text><text x="625" y="407" class="small">block risky prompt/model changes</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Model Router 决策流程</title>
+  <desc id="desc">根据 risk、complexity 和 confidence 路由到 cheap model、strong model 或 fallback cascade。</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.cheap{fill:#ecfdf5;stroke:#22c55e;stroke-width:2}.strong{fill:#eff6ff;stroke:#3b82f6;stroke-width:2}.fallback{fill:#fff7ed;stroke:#f97316;stroke-width:2}.title{font:700 28px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.label{font:700 16px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.small{font:400 13px Arial,"Noto Sans CJK SC",sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.4;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="1120" height="520"/><text x="56" y="58" class="title">Model Router：cost、latency、quality tradeoff</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M200 240 H330"/><path class="line" d="M500 240 H625"/><path class="line" d="M745 195 H880"/><path class="line" d="M745 285 H880"/><path class="line" d="M965 300 V385 H565 V300"/></g>
+  <rect x="70" y="185" width="130" height="110" rx="10" class="box"/><text x="106" y="224" class="label">Task</text><text x="95" y="252" class="small">prompt + context</text>
+  <rect x="330" y="185" width="170" height="110" rx="10" class="box"/><text x="365" y="224" class="label">Classify</text><text x="360" y="252" class="small">risk、complexity</text>
+  <rect x="625" y="185" width="120" height="110" rx="10" class="box"/><text x="655" y="224" class="label">Route</text><text x="648" y="252" class="small">policy rules</text>
+  <rect x="880" y="130" width="170" height="100" rx="10" class="cheap"/><text x="912" y="168" class="label">Cheap Model</text><text x="908" y="196" class="small">低 cost、低 latency</text>
+  <rect x="880" y="270" width="170" height="100" rx="10" class="strong"/><text x="912" y="308" class="label">Strong Model</text><text x="906" y="336" class="small">reasoning、safety</text>
+  <rect x="425" y="360" width="260" height="90" rx="10" class="fallback"/><text x="465" y="397" class="label">Fallback Cascade</text><text x="450" y="425" class="small">low confidence 时升级到 stronger model</text>
+</svg>

@@ -2,6 +2,8 @@
 
 This example implements a tiny evaluation harness with no external dependencies.
 
+![LLM eval harness](../../assets/diagrams/eval-harness.svg)
+
 It demonstrates:
 
 - Versioned test cases.

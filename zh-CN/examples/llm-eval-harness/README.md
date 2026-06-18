@@ -2,6 +2,8 @@
 
 这个 example 实现了一个无外部依赖的 tiny evaluation harness。
 
+![LLM Eval Harness](../../../assets/diagrams/zh-CN/eval-harness.svg)
+
 它展示：
 
 - Versioned test cases。

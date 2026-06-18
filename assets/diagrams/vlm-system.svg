@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Multimodal VLM system</title>
+  <desc id="desc">A VLM system that handles images, PDFs, UI screenshots, OCR, layout, reasoning, tools, and answers.</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.vlm{fill:#eff6ff;stroke:#3b82f6;stroke-width:2}.out{fill:#ecfdf5;stroke:#22c55e;stroke-width:2}.title{font:700 28px Arial,sans-serif;fill:#0f172a}.label{font:700 16px Arial,sans-serif;fill:#0f172a}.small{font:400 13px Arial,sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.4;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="1120" height="520"/><text x="56" y="58" class="title">Multimodal/VLM System For Interviews</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M220 165 H360"/><path class="line" d="M220 260 H360"/><path class="line" d="M220 355 H360"/><path class="line" d="M540 260 H665"/><path class="line" d="M805 215 H930"/><path class="line" d="M805 305 H930"/></g>
+  <rect x="70" y="120" width="150" height="75" rx="10" class="box"/><text x="105" y="150" class="label">Images</text><text x="98" y="174" class="small">charts, scenes</text>
+  <rect x="70" y="225" width="150" height="75" rx="10" class="box"/><text x="110" y="255" class="label">PDFs</text><text x="94" y="279" class="small">tables, layout</text>
+  <rect x="70" y="330" width="150" height="75" rx="10" class="box"/><text x="92" y="360" class="label">UI Screens</text><text x="94" y="384" class="small">browser, app state</text>
+  <rect x="360" y="190" width="180" height="140" rx="12" class="vlm"/><text x="420" y="238" class="label">VLM</text><text x="395" y="266" class="small">OCR + layout</text><text x="395" y="290" class="small">visual reasoning</text>
+  <rect x="665" y="190" width="140" height="140" rx="12" class="box"/><text x="700" y="238" class="label">Planner</text><text x="690" y="266" class="small">decide answer</text><text x="690" y="290" class="small">or call tool</text>
+  <rect x="930" y="155" width="145" height="95" rx="10" class="out"/><text x="965" y="192" class="label">Answer</text><text x="955" y="220" class="small">grounded response</text>
+  <rect x="930" y="285" width="145" height="95" rx="10" class="out"/><text x="970" y="322" class="label">Tool</text><text x="955" y="350" class="small">browser, code, API</text>
+</svg>

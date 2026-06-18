@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Coding Agent Repair Loop</title>
+  <desc id="desc">从 issue 到 localize、patch、tests、failure analysis、retry 和 submit diff 的 Coding Agent 流程。</desc>
+  <defs><style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.loop{fill:#fff7ed;stroke:#f97316;stroke-width:2}.done{fill:#ecfdf5;stroke:#22c55e;stroke-width:2}.title{font:700 28px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.label{font:700 16px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.small{font:400 13px Arial,"Noto Sans CJK SC",sans-serif;fill:#475569}.line{stroke:#64748b;stroke-width:2.4;fill:none}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+  <rect class="bg" width="1120" height="520"/><text x="56" y="58" class="title">Coding Agent Repair Loop</text>
+  <g marker-end="url(#arrow)"><path class="line" d="M180 215 H275"/><path class="line" d="M395 215 H490"/><path class="line" d="M610 215 H705"/><path class="line" d="M825 215 H920"/><path class="line" d="M770 275 V360 H500 V285"/></g>
+  <rect x="60" y="160" width="120" height="110" rx="10" class="box"/><text x="92" y="198" class="label">Issue</text><text x="82" y="226" class="small">bug report</text>
+  <rect x="275" y="160" width="120" height="110" rx="10" class="box"/><text x="302" y="198" class="label">Localize</text><text x="298" y="226" class="small">files、symbols</text>
+  <rect x="490" y="160" width="120" height="110" rx="10" class="box"/><text x="528" y="198" class="label">Patch</text><text x="512" y="226" class="small">最小 diff</text>
+  <rect x="705" y="160" width="120" height="110" rx="10" class="loop"/><text x="735" y="198" class="label">Tests</text><text x="724" y="226" class="small">run + inspect</text>
+  <rect x="920" y="160" width="140" height="110" rx="10" class="done"/><text x="952" y="198" class="label">Submit Diff</text><text x="944" y="226" class="small">summary、risks</text>
+  <rect x="640" y="360" width="260" height="85" rx="10" class="loop"/><text x="684" y="394" class="label">Analyze Failure</text><text x="672" y="422" class="small">stderr、assertions、logs、retry budget</text>
+</svg>

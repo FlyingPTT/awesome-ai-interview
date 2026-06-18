@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img" aria-labelledby="title desc">
+  <title id="title">AI 面试学习路径</title>
+  <desc id="desc">从 Roadmap 到 Mock Interview 的五步学习路径。</desc>
+  <defs>
+    <style>.bg{fill:#f8fafc}.step{fill:#fff;stroke:#cbd5e1;stroke-width:2}.num{fill:#2563eb}.title{font:700 28px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.label{font:700 18px Arial,"Noto Sans CJK SC",sans-serif;fill:#0f172a}.small{font:400 13px Arial,"Noto Sans CJK SC",sans-serif;fill:#475569}.n{font:700 18px Arial,sans-serif;fill:#fff}.line{stroke:#64748b;stroke-width:2.5;fill:none}</style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker>
+  </defs>
+  <rect class="bg" width="1120" height="420"/>
+  <text x="56" y="62" class="title">从笔记到面试表达的 Study Path</text>
+  <g marker-end="url(#arrow)">
+    <path class="line" d="M218 220 H318"/><path class="line" d="M418 220 H518"/><path class="line" d="M618 220 H718"/><path class="line" d="M818 220 H918"/>
+  </g>
+  <g>
+    <rect x="58" y="150" width="160" height="140" rx="12" class="step"/><circle cx="90" cy="182" r="20" class="num"/><text x="90" y="188" text-anchor="middle" class="n">1</text><text x="86" y="225" class="label">Roadmap</text><text x="86" y="253" class="small">选择目标岗位</text>
+    <rect x="318" y="150" width="160" height="140" rx="12" class="step"/><circle cx="350" cy="182" r="20" class="num"/><text x="350" y="188" text-anchor="middle" class="n">2</text><text x="346" y="225" class="label">Questions</text><text x="346" y="253" class="small">练概念和 tradeoffs</text>
+    <rect x="518" y="150" width="160" height="140" rx="12" class="step"/><circle cx="550" cy="182" r="20" class="num"/><text x="550" y="188" text-anchor="middle" class="n">3</text><text x="546" y="225" class="label">Examples</text><text x="546" y="253" class="small">本地运行代码</text>
+    <rect x="718" y="150" width="160" height="140" rx="12" class="step"/><circle cx="750" cy="182" r="20" class="num"/><text x="750" y="188" text-anchor="middle" class="n">4</text><text x="746" y="225" class="label">Project</text><text x="746" y="253" class="small">形成简历证据</text>
+    <rect x="918" y="150" width="160" height="140" rx="12" class="step"/><circle cx="950" cy="182" r="20" class="num"/><text x="950" y="188" text-anchor="middle" class="n">5</text><text x="946" y="225" class="label">Mock</text><text x="946" y="253" class="small">讲清系统取舍</text>
+  </g>
+</svg>

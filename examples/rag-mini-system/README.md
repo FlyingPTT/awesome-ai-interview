@@ -2,6 +2,8 @@
 
 A dependency-free mini RAG system over local Markdown files.
 
+![RAG pipeline](../../assets/diagrams/rag-pipeline.svg)
+
 It demonstrates:
 
 - Local document ingestion.
