@@ -49,4 +49,12 @@ echo "Running RAG eval set tests..."
 python3 -m unittest discover examples/rag-eval-set/tests
 
 echo
+echo "Running coding agent mini demo..."
+python3 examples/coding-agent-mini/run_demo.py
+
+echo
+echo "Running coding agent mini tests..."
+python3 -m unittest discover examples/coding-agent-mini/tests
+
+echo
 echo "All examples passed."

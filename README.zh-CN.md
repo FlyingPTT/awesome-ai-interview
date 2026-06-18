@@ -20,8 +20,10 @@
 | 准备 LLM 面试 | [100 道 LLM 面试题](zh-CN/interviews/100-llm-interview-questions.md) |
 | 准备 RAG 面试 | [50 道 RAG 面试题](zh-CN/interviews/50-rag-interview-questions.md) |
 | 准备 Agent 面试 | [50 道 AI Agent 面试题](zh-CN/interviews/50-agent-interview-questions.md) |
+| 准备多模态/VLM 面试 | [30 道 Multimodal/VLM 面试题](zh-CN/interviews/30-multimodal-vlm-interview-questions.md) |
 | 构建简历项目 | [可运行 Examples](zh-CN/examples/README.md) |
 | 学习 Agent 工具调度 | [Minimal Agent Framework](zh-CN/examples/minimal-agent-framework/README.md) |
+| 学习 Coding Agent 修复循环 | [Coding Agent Mini](zh-CN/examples/coding-agent-mini/README.md) |
 | 学习 LLM 评估 | [LLM Eval Harness](zh-CN/examples/llm-eval-harness/README.md) |
 | 学习 RAG 实现 | [RAG Mini System](zh-CN/examples/rag-mini-system/README.md) |
 | 学习模型路由 | [Model Router](zh-CN/examples/model-router/README.md) |
@@ -30,6 +32,7 @@
 | 跟踪高质量 AI 仓库 | [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md) |
 | 一周打卡学习 | [7 天 AI 面试打卡清单](zh-CN/roadmap/7-day-checklist.md) |
 | 避开面试常见坑 | [AI 面试常见坑](zh-CN/interviews/common-pitfalls.md) |
+| 规划下一步扩充 | [下一步扩充计划](zh-CN/NEXT_STEPS.md) |
 
 ## 快速入口
 
@@ -41,6 +44,7 @@
 - [100 道 LLM 面试题](zh-CN/interviews/100-llm-interview-questions.md)
 - [50 道 RAG 面试题](zh-CN/interviews/50-rag-interview-questions.md)
 - [50 道 AI Agent 面试题](zh-CN/interviews/50-agent-interview-questions.md)
+- [30 道 Multimodal/VLM 面试题](zh-CN/interviews/30-multimodal-vlm-interview-questions.md)
 - [LLM 高频基础题](zh-CN/interviews/llm-basic.md)
 - [AI Agent 面试笔记](zh-CN/interviews/agent.md)
 - [RAG 系统设计笔记](zh-CN/interviews/rag.md)
@@ -51,6 +55,7 @@
 - [Agent Skills Catalog](zh-CN/skills/agent-skills-catalog.md)
 - [可写进简历的 AI 项目](zh-CN/projects/README.md)
 - [可运行 Examples](zh-CN/examples/README.md)
+- [下一步扩充计划](zh-CN/NEXT_STEPS.md)
 - [论文摘要](zh-CN/paper-summaries/README.md)
 - [高 Star 高质量 AI 仓库汇总](zh-CN/repos/curated-ai-repositories.md)
 - [GitHub 设置指南](zh-CN/GITHUB_SETUP.md)
@@ -99,7 +104,7 @@
 - LLM Evaluation Harness。
 - Minimal Agent Framework。
 - 可运行的 minimal agent framework 和 evaluation harness examples。
-- RAG mini system 和 model router examples。
+- RAG mini system、model router 和 coding-agent mini examples。
 - RAG eval set 和工程视角论文摘要。
 - 论文阅读助手。
 - AI 面试模拟器。

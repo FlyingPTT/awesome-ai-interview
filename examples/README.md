@@ -6,9 +6,10 @@ Small, dependency-free examples that turn the repository's interview notes into 
 
 - [Minimal Agent Framework](minimal-agent-framework/): model-tool-observation loop with explicit state, tool registry, schema validation, step budget, and trajectory logging.
 - [LLM Eval Harness](llm-eval-harness/): versioned test cases, deterministic model wrapper, evaluators, latency tracking, and pass/fail reporting.
-- [RAG Mini System](rag-mini-system/): local Markdown ingestion, BM25-style retrieval, cited answers, and refusal behavior.
+- [RAG Mini System](rag-mini-system/): local Markdown ingestion, sparse/dense/hybrid retrieval, cited answers, and refusal behavior.
 - [Model Router](model-router/): risk and complexity routing between cheap and strong models with cost and latency estimates.
 - [RAG Eval Set](rag-eval-set/): answerable/unanswerable evaluation cases, citation checks, retrieval checks, and report export.
+- [Coding Agent Mini](coding-agent-mini/): toy repair loop that localizes a bug, patches code, runs a deterministic test, and emits a diff.
 
 ## Why These Examples Matter
 
@@ -22,3 +23,4 @@ These examples are intentionally small. They are designed for interview discussi
 - How do we build a tiny RAG pipeline with citations?
 - How do we route tasks by cost, latency, risk, and complexity?
 - How do we turn a RAG demo into a regression-tested workflow?
+- How do coding agents turn an issue into a patch and a verified result?

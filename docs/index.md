@@ -15,6 +15,7 @@ A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resu
 | LLM interview prep | [100 LLM Interview Questions](../interviews/100-llm-interview-questions.md) |
 | RAG interview prep | [50 RAG Interview Questions](../interviews/50-rag-interview-questions.md) |
 | Agent interview prep | [50 AI Agent Interview Questions](../interviews/50-agent-interview-questions.md) |
+| Multimodal interview prep | [30 Multimodal/VLM Interview Questions](../interviews/30-multimodal-vlm-interview-questions.md) |
 | Study plan | [7-Day Study Plan](../roadmap/7-day-study-plan.md) |
 | Checklist | [7-Day Checklist](../roadmap/7-day-checklist.md) |
 | Common mistakes | [Common Pitfalls](../interviews/common-pitfalls.md) |
@@ -22,8 +23,10 @@ A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resu
 | RAG implementation | [RAG Mini System](../examples/rag-mini-system/) |
 | Model routing | [Model Router](../examples/model-router/) |
 | RAG evaluation | [RAG Eval Set](../examples/rag-eval-set/) |
+| Coding agent repair | [Coding Agent Mini](../examples/coding-agent-mini/) |
 | Paper summaries | [Paper Summaries](../paper-summaries/README.md) |
 | High-star repos | [Curated AI Repositories](../repos/curated-ai-repositories.md) |
+| Next expansion | [Next Expansion Plan](../NEXT_STEPS.md) |
 
 ## Runnable Examples
 
@@ -32,6 +35,7 @@ A bilingual handbook for LLM, RAG, AI Agent interviews, skills, papers, and resu
 - [RAG Mini System](../examples/rag-mini-system/)
 - [Model Router](../examples/model-router/)
 - [RAG Eval Set](../examples/rag-eval-set/)
+- [Coding Agent Mini](../examples/coding-agent-mini/)
 
 ## Why This Repo Exists
 

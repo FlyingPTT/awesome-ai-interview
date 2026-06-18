@@ -9,6 +9,7 @@
 - Citation checks。
 - Retrieval hit checks。
 - Keyword coverage checks。
+- 针对 retrieval、citation、refusal 和 generation 问题的 failure analysis。
 - JSON report export。
 
 ## 运行
@@ -35,4 +36,4 @@ python3 -m unittest discover examples/rag-eval-set/tests
 - Retrieval quality 和 generation quality 应分开检查。
 - Citation correctness 是一等产品指标。
 - 小 eval set 可以成为 prompt、retrieval 和 chunking changes 的 regression gate。
-
+- Failure analysis 应把症状映射到可能出问题的 pipeline component。

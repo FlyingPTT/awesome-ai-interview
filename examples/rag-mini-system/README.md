@@ -6,8 +6,9 @@ It demonstrates:
 
 - Local document ingestion.
 - Tokenization.
-- BM25-style retrieval.
-- Simple reranking by score.
+- Sparse BM25-style retrieval.
+- Dense mock retrieval with token-overlap similarity.
+- Hybrid score fusion.
 - Grounded answer synthesis.
 - Citations.
 - Refusal when evidence is weak.
@@ -37,4 +38,4 @@ python3 -m unittest discover examples/rag-mini-system/tests
 - Retrieval failure and generation failure should be debugged separately.
 - Refusal behavior is a product requirement, not just a prompt trick.
 - Even a tiny RAG system should expose retrieved evidence and scores.
-
+- Hybrid retrieval often improves robustness because sparse retrieval handles exact terms while dense retrieval handles semantic overlap.

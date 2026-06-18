@@ -27,6 +27,7 @@
 - [x] RAG mini system example。
 - [x] Model router example。
 - [x] RAG eval set example。
+- [x] Coding Agent mini repair-loop example。
 - [ ] 端到端 RAG 参考实现。
 - [ ] Coding Agent 参考实现。
 - [ ] AI 面试模拟器 demo。
@@ -37,6 +38,7 @@
 - [x] AI Agent 论文路线图。
 - [x] RAG 论文路线图。
 - [ ] 多模态模型论文路线图。
+- [x] Multimodal/VLM 面试题集。
 - [x] 高效推理论文路线图。
 - [x] LLM Evaluation 论文路线图。
 - [x] 工程视角论文摘要。
@@ -55,4 +57,5 @@
 - [x] GitHub 设置指南。
 - [x] 每周 AI 面试 digest。
 - [x] Social preview 源文件。
+- [x] 下一步扩充计划。
 - [ ] Star history badge。

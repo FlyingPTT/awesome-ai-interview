@@ -20,8 +20,10 @@ This repository curates high-frequency interview questions, system design notes,
 | Prepare for LLM interviews | [100 LLM Interview Questions](interviews/100-llm-interview-questions.md) |
 | Prepare for RAG interviews | [50 RAG Interview Questions](interviews/50-rag-interview-questions.md) |
 | Prepare for agent interviews | [50 AI Agent Interview Questions](interviews/50-agent-interview-questions.md) |
+| Prepare for multimodal interviews | [30 Multimodal/VLM Interview Questions](interviews/30-multimodal-vlm-interview-questions.md) |
 | Build a resume project | [Runnable Examples](examples/) |
 | Learn agent tool orchestration | [Minimal Agent Framework](examples/minimal-agent-framework/) |
+| Learn coding agent repair loops | [Coding Agent Mini](examples/coding-agent-mini/) |
 | Learn LLM evaluation | [LLM Eval Harness](examples/llm-eval-harness/) |
 | Learn RAG implementation | [RAG Mini System](examples/rag-mini-system/) |
 | Learn model routing | [Model Router](examples/model-router/) |
@@ -30,6 +32,7 @@ This repository curates high-frequency interview questions, system design notes,
 | Follow high-quality AI repos | [Curated High-Star AI Repositories](repos/curated-ai-repositories.md) |
 | Study in one week | [7-Day AI Interview Checklist](roadmap/7-day-checklist.md) |
 | Avoid common mistakes | [Common AI Interview Pitfalls](interviews/common-pitfalls.md) |
+| Plan the next expansion | [Next Expansion Plan](NEXT_STEPS.md) |
 
 ## Start Here
 
@@ -41,6 +44,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [100 LLM Interview Questions](interviews/100-llm-interview-questions.md)
 - [50 RAG Interview Questions](interviews/50-rag-interview-questions.md)
 - [50 AI Agent Interview Questions](interviews/50-agent-interview-questions.md)
+- [30 Multimodal/VLM Interview Questions](interviews/30-multimodal-vlm-interview-questions.md)
 - [High-Frequency LLM Interview Questions](interviews/llm-basic.md)
 - [AI Agent Interview Notes](interviews/agent.md)
 - [RAG System Design Notes](interviews/rag.md)
@@ -51,6 +55,7 @@ This repository curates high-frequency interview questions, system design notes,
 - [Agent Skills Catalog](skills/agent-skills-catalog.md)
 - [Resume-Ready AI Projects](projects/README.md)
 - [Runnable Examples](examples/)
+- [Next Expansion Plan](NEXT_STEPS.md)
 - [Paper Summaries](paper-summaries/README.md)
 - [Curated High-Star AI Repositories](repos/curated-ai-repositories.md)
 - [GitHub Setup Guide](GITHUB_SETUP.md)
@@ -99,7 +104,7 @@ All interview notes, roadmaps, skills, projects, and templates are maintained in
 - LLM evaluation harness.
 - Minimal agent framework.
 - Runnable minimal agent framework and evaluation harness examples.
-- RAG mini system and model router examples.
+- RAG mini system, model router, and coding-agent mini examples.
 - RAG eval set and engineering-oriented paper summaries.
 - Paper reading assistant.
 - AI interview simulator.

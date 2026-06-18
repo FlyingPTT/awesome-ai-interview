@@ -50,6 +50,48 @@ def evaluate_case(rag: MiniRAG, case: dict[str, Any]) -> dict[str, Any]:
         "retrieved": result["retrieved"],
         "checks": checks,
         "passed": all(check["passed"] for check in checks),
+        "failure_analysis": analyze_failure(case, result, checks),
+    }
+
+
+def analyze_failure(
+    case: dict[str, Any],
+    result: dict[str, Any],
+    checks: list[dict[str, Any]],
+) -> dict[str, str]:
+    failed_checks = [check["name"] for check in checks if not check["passed"]]
+    if not failed_checks:
+        return {"category": "none", "suggestion": "No failure detected."}
+
+    if case["expected_behavior"] == "refuse":
+        return {
+            "category": "refusal_failure",
+            "suggestion": "Tighten refusal policy or raise minimum retrieval confidence for sensitive questions.",
+        }
+
+    retrieved_doc_ids = {item["doc_id"] for item in result["retrieved"]}
+    expected_doc_id = case.get("expected_doc_id")
+    if "retrieves_expected_doc" in failed_checks or expected_doc_id not in retrieved_doc_ids:
+        return {
+            "category": "retrieval_failure",
+            "suggestion": "Improve chunking, query rewriting, hybrid retrieval weights, or metadata filters.",
+        }
+
+    if "has_citation" in failed_checks or "cites_expected_doc" in failed_checks:
+        return {
+            "category": "citation_failure",
+            "suggestion": "Preserve source ids through generation and validate citations after answer synthesis.",
+        }
+
+    if "keyword_coverage" in failed_checks:
+        return {
+            "category": "generation_failure",
+            "suggestion": "Improve context formatting, answer prompt, or add answer completeness checks.",
+        }
+
+    return {
+        "category": "unknown_failure",
+        "suggestion": "Inspect retrieved evidence, final answer, and evaluator expectations.",
     }
 
 
@@ -63,12 +105,23 @@ def run_eval(cases_path: Path, report_path: Path | None = None) -> dict[str, Any
         "passed": passed,
         "failed": len(results) - passed,
         "pass_rate": round(passed / len(results), 3) if results else 0,
+        "failure_summary": summarize_failures(results),
         "cases": results,
     }
     if report_path:
         report_path.parent.mkdir(parents=True, exist_ok=True)
         report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
     return report
+
+
+def summarize_failures(results: list[dict[str, Any]]) -> dict[str, int]:
+    summary: dict[str, int] = {}
+    for result in results:
+        category = result["failure_analysis"]["category"]
+        if category == "none":
+            continue
+        summary[category] = summary.get(category, 0) + 1
+    return summary
 
 
 def main() -> None:
@@ -82,11 +135,15 @@ def main() -> None:
     args = parser.parse_args()
 
     report = run_eval(args.cases, args.report)
-    print(json.dumps({k: report[k] for k in ["total", "passed", "failed", "pass_rate"]}, indent=2))
+    print(
+        json.dumps(
+            {k: report[k] for k in ["total", "passed", "failed", "pass_rate", "failure_summary"]},
+            indent=2,
+        )
+    )
     if args.report:
         print(f"Report written to {args.report}")
 
 
 if __name__ == "__main__":
     main()
-

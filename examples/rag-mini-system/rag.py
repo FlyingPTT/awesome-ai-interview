@@ -25,6 +25,8 @@ class Document:
 class ScoredDocument:
     document: Document
     score: float
+    sparse_score: float = 0.0
+    dense_score: float = 0.0
 
 
 class MiniRAG:
@@ -56,16 +58,18 @@ class MiniRAG:
                 df[token] = df.get(token, 0) + 1
         return df
 
-    def retrieve(self, query: str, top_k: int = 3) -> list[ScoredDocument]:
+    def retrieve(self, query: str, top_k: int = 3, mode: str = "hybrid") -> list[ScoredDocument]:
         query_tokens = tokenize(query)
         scored = []
         for doc in self.documents:
-            score = self._score(query_tokens, self.doc_tokens[doc.doc_id])
+            sparse_score = self._sparse_score(query_tokens, self.doc_tokens[doc.doc_id])
+            dense_score = self._dense_score(query_tokens, self.doc_tokens[doc.doc_id])
+            score = self._combine_scores(sparse_score, dense_score, mode)
             if score > 0:
-                scored.append(ScoredDocument(doc, score))
+                scored.append(ScoredDocument(doc, score, sparse_score, dense_score))
         return sorted(scored, key=lambda item: item.score, reverse=True)[:top_k]
 
-    def _score(self, query_tokens: list[str], doc_tokens: list[str]) -> float:
+    def _sparse_score(self, query_tokens: list[str], doc_tokens: list[str]) -> float:
         if not query_tokens or not doc_tokens:
             return 0.0
         score = 0.0
@@ -82,13 +86,33 @@ class MiniRAG:
             score += idf * numerator / denominator
         return score
 
-    def answer(self, query: str, min_score: float = 0.15) -> dict[str, object]:
-        retrieved = self.retrieve(query)
+    def _dense_score(self, query_tokens: list[str], doc_tokens: list[str]) -> float:
+        if not query_tokens or not doc_tokens:
+            return 0.0
+        query_set = set(query_tokens)
+        doc_set = set(doc_tokens)
+        overlap = len(query_set & doc_set)
+        if overlap == 0:
+            return 0.0
+        return overlap / math.sqrt(len(query_set) * len(doc_set))
+
+    def _combine_scores(self, sparse_score: float, dense_score: float, mode: str) -> float:
+        if mode == "sparse":
+            return sparse_score
+        if mode == "dense":
+            return dense_score
+        if mode == "hybrid":
+            return sparse_score + 1.8 * dense_score
+        raise ValueError(f"unknown retrieval mode: {mode}")
+
+    def answer(self, query: str, min_score: float = 0.15, mode: str = "hybrid") -> dict[str, object]:
+        retrieved = self.retrieve(query, mode=mode)
         if not retrieved or retrieved[0].score < min_score:
             return {
                 "answer": "I do not have enough evidence in the local documents to answer.",
                 "citations": [],
                 "retrieved": [],
+                "retrieval_mode": mode,
             }
 
         best = retrieved[0].document
@@ -97,9 +121,15 @@ class MiniRAG:
             "answer": f"{answer} [source:{best.doc_id}]",
             "citations": [{"doc_id": best.doc_id, "title": best.title, "path": best.path}],
             "retrieved": [
-                {"doc_id": item.document.doc_id, "score": round(item.score, 4)}
+                {
+                    "doc_id": item.document.doc_id,
+                    "score": round(item.score, 4),
+                    "sparse_score": round(item.sparse_score, 4),
+                    "dense_score": round(item.dense_score, 4),
+                }
                 for item in retrieved
             ],
+            "retrieval_mode": mode,
         }
 
     def _synthesize(self, query: str, doc: Document) -> str:
@@ -108,4 +138,3 @@ class MiniRAG:
         if body_sentences:
             return body_sentences[0]
         return doc.text.replace("\n", " ").strip()
-

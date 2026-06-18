@@ -26,7 +26,12 @@ class RAGEvalSetTests(unittest.TestCase):
             loaded = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual(loaded["passed"], 3)
 
+    def test_failure_analysis_present(self):
+        report = run_eval(ROOT / "test_cases" / "cases.json")
+        for case in report["cases"]:
+            self.assertIn("failure_analysis", case)
+            self.assertIn("category", case["failure_analysis"])
+
 
 if __name__ == "__main__":
     unittest.main()
-

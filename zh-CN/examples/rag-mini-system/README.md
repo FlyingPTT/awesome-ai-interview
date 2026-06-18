@@ -6,8 +6,9 @@
 
 - 本地文档 ingestion。
 - Tokenization。
-- BM25 风格 retrieval。
-- 基于 score 的简单 reranking。
+- Sparse BM25 风格 retrieval。
+- 基于 token-overlap similarity 的 dense mock retrieval。
+- Hybrid score fusion。
 - Grounded answer synthesis。
 - Citations。
 - 证据弱时 refusal。
@@ -37,4 +38,4 @@ python3 -m unittest discover examples/rag-mini-system/tests
 - Retrieval failure 和 generation failure 应分开 debug。
 - Refusal behavior 是产品需求，不只是 prompt trick。
 - 即使是 tiny RAG system，也应该暴露 retrieved evidence 和 scores。
-
+- Hybrid retrieval 往往更稳健，因为 sparse retrieval 擅长精确词，而 dense retrieval 擅长语义重叠。
